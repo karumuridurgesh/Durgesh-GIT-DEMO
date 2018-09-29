@@ -49,11 +49,11 @@
   <ItemGroup>
     <Reference Include="GTKonnect.CommonUtilites, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\GTKonnect.CommonUtilites.dll</HintPath>
+      <HintPath>F:\Workspace\Refere\Refere\GTKonnect.CommonUtilites.dll</HintPath>
     </Reference>
     <Reference Include="GTKonnect.DBHelper, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\GTKonnect.DBHelper.dll</HintPath>
+      <HintPath>F:\Workspace\Refere\Refere\GTKonnect.DBHelper.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
@@ -67,7 +67,7 @@
       <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="RC4Library">
-      <HintPath>..\GTKSSO\bin\RC4Library.dll</HintPath>
+      <HintPath>F:\Workspace\Refere\Refere\RC4Library.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.IdentityModel" />
