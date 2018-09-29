@@ -1,0 +1,209 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="GTKMst.master.cs" Inherits="GTKSSO.MasterPages.GTKMst" %>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>GTKonnect</title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <link rel="icon" type="image/png" href="../images/gtkfavicon.png" />
+    <!-- Bootstrap 3.3.6 -->
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <!-- Theme style -->
+    <link rel="stylesheet" href="../dist/css/AdminLTE.min.css">
+    <link rel="stylesheet" href="../dist/css/gtk-common.css">
+    <link rel="stylesheet" href="../dist/css/theme_yellow.css"><!--theme color-->
+
+    <!--  Choose a skin from the css/skins
+         folder instead of downloading all of them to reduce the load. -->
+    <link rel="stylesheet" href="../dist/css/skins/_all-skins.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.2/moment.min.js"></script>
+    <script type="text/javascript" src='<%= Page.ResolveClientUrl("~/ClientScrips/require.js")%>' ></script>
+    <script type="text/javascript" src='<%= Page.ResolveClientUrl("~/ClientScrips/require-config.js")%>' ></script>
+    <link rel="stylesheet" href="../css/kendo.common.min.css" />
+    <style id="antiClickjack">body{display:none !important;}</style>
+    <script type="text/javascript" src='<%= Page.ResolveClientUrl("~/ClientScrips/FrameBuster.js")%>' ></script>
+</head>
+<body class="hold-transition skin-blue sidebar-mini" onload="FrameBuster()">
+    <form id="form1" runat="server">
+        <div class="wrapper">
+            <header class="main-header">
+                <!-- Logo -->
+                <a href="index.html" class="logo" style="position: fixed;">
+                    <!-- mini logo for sB mini 50x50 pixels -->
+                    <span class="logo-mini">
+                        <!-- logo for regular state and mobile devices -->
+                        <span class="logo-lg"></a>
+                <!-- Header Navbar: style can be found in -->
+                <nav class="navbar navbar-fixed-top">
+                    <!-- sB toggle button-->
+                    <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+                        <span class="sr-only">Toggle navigation</span>
+                    </a>
+                         <ol class="breadcrumb">
+                           <li><label id="lblParent"></label></li>
+                           <li><label id="lblMenu"></label></li>
+                        </ol>
+                    <div class="navbar-custom-menu">
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown messages-menu">
+                                <a href="#" title="Log Out" class="dropdown-toggle" tooltip="Logout" data-toggle="dropdown" onclick="return Logout();">
+                                    <i class="fa fa-sign-out"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+            <!-- Left side column. contains the logo and sB -->
+            <aside class="main-sidebar">
+                <!-- sB: style can be found in  -->
+                <section class="sidebar">
+                    <div class="mt-10">
+                        <ul class="nav nav-tabs nav-justified control-sidebar-tabs">
+                            <li id="liGTKSSOMainMenu"><a href="#control-menu-tab" data-toggle="tab"><i class="fa fa-home"></i></a></li>
+                            <li id="liGTKSSOSubMenu"><a href="#control-quick-tab" data-toggle="tab"><i class="fa fa-navicon"></i></a></li>
+                            <li id="liGTKSSOFilters"><a href="#control-sidebar-filters-tab" data-toggle="tab"><i class="fa fa-filter"></i></a></li>
+                            <li id="liGTKSSOUserActions"><a href="#control-sidebar-home-tab" data-toggle="tab"><i class="fa fa-wrench"></i></a></li>
+                            <li id="liGTKSSOThemes"><a href="#control-skins-tab" data-toggle="tab"><i class="fa fa-gears"></i></a></li>
+                        </ul>
+                    </div>
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <!-- Home tab content -->
+                        <div class="tab-pane active" id="control-menu-tab">
+                            <section id="SecMainMenu" style="display: none;">
+                                <div id="divSSOMainMenu">
+                                    <ul class="sidebar-menu" data-template="MainMenuTmpl" data-bind="source: SSOMainMenu">
+                                    </ul>
+                                </div>
+                            </section>
+                            <script id="MainMenuTmpl" type="text/x-kendo-template">
+                           
+                             <li class="treeview" id="liMainMenu#= MENUID #">
+                                <a onclick="loadSelectedMenus('#= PARENTFEATURE #','#= MENUID #','#= URL #')"> <img src="../#= MenuImgUrl #" width="20px" style="margin-right:8px;">
+                                <span>#= PARENTFEATURE #</span>
+                                </a>
+                             </li>
+                           
+                            </script>
+                        </div>
+                        <div class="tab-pane" id="control-quick-tab">
+                            <section id="SecSubMenu" style="display: none;">
+                                <div id="divSSOSubMenu">
+                                    <ul class="sidebar-menu" data-template="SubMenuTmpl" data-bind="source: SSOSubMenu">
+                                    </ul>
+                                </div>
+                            </section>
+                            <script id="SubMenuTmpl" type="text/x-kendo-template">
+                          
+                             <li class="treeview" id="liSubMenu#= MENUID #">
+                               <a onclick="loadMenuFeature('#= PARENTFEATURE #','#= MENUFEATURE #','#= MENUID #','#= URL #')">
+                                <img src="../#= MenuImgUrl #" width="20px">
+                                <span class="pull-right-container">
+                                </span>
+                                <span>#= MENUFEATURE #</span>
+                                </a>
+                             </li>
+                           
+                            </script>
+                            <div id="divLDashSubMenu"></div>
+                            <section id="SecDashSubMenu" style="display: none;">
+                                <div id="divSSODashSubMenu">
+                                    <ul id="ulSSODashSubMenu" class="sidebar-menu" data-template="DashSubMenuTmpl" data-bind="source: DashSSOSubMenu">
+                                    </ul>
+                                </div>
+                            </section>
+                            <script id="DashSubMenuTmpl" type="text/x-kendo-template">
+                          
+                             <li id="liSSODashSubMenu#= RowNumber #" class="treeview">
+                                <a onclick="loadDashBLinks('#= RowNumber #','#= AppType #');">
+                                <p class="side_icon_dis">#= AppType.substring(0,2) #</p>
+                                <span class="pull-right-container">
+                                </span>
+                                <span>#= AppType #</span>
+                                </a>
+                             </li>
+                           
+                            </script>
+                        </div>
+                        <div class="tab-pane" id="control-sidebar-home-tab">
+                             <section id="SSOUserAction" style="display: none;">
+                                <div id="divSSOUserAction">
+                                    <ul class="sidebar-menu" data-template="SSOUserActionTmpl" data-bind="source: SSOUserAction">
+                                    </ul>
+                                </div>
+                            </section>
+                            <script id="SSOUserActionTmpl" type="text/x-kendo-template">
+                           
+                             <li class="treeview">
+                                <a onclick="SSOUserActionEvent('#= AxnCd #')"> 
+                                <span>#= AxnTxt #</span>
+                                </a>
+                             </li>
+                           
+                            </script>
+                        </div>
+                        <!-- /.tab-pane -->
+
+                        <div class="tab-pane" id="control-sidebar-filters-tab">
+                            No data to display.
+                        </div>
+                        <!-- /.tab-pane -->
+                        <div class="tab-pane" id="control-skins-tab">
+                            <h3>Themes</h3>
+                        </div>
+                    </div>
+                </section>
+                <!-- /.sidebar -->
+            </aside>
+            <div class="content-wrapper" style="margin-top: 50px;">
+                <!-- Content Header (Page header) -->
+                <!-- Main content -->
+                <div>
+                    <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+                <!-- /.content -->
+                <br />
+            </div>
+            <asp:Button ID="btnLogout" runat="server" OnClick="btnLogout_Click" UseSubmitBehavior="false"
+                CssClass="HiddenButtons" />
+        </div>
+        <!-- /.content-wrapper -->
+        <asp:HiddenField ID="CSRFToken" runat="server" />
+        <footer class="main-footer">
+            <div class="pull-right hidden-xs">
+            </div>
+            <strong>Copyright &copy; 2017 <a href="http://gtkonnect.com/" rel="noopener noreferrer" target="_blank">GTKonnect</a>.</strong> All rights
+         reserved.
+     
+        </footer>
+
+        <!-- iCheck 1.0.1 -->
+        <%--<script src="../plugins/iCheck/icheck.min.js"></script>--%>
+        <!-- App -->
+        <%--<script src="../dist/js/app.min.js"></script>--%>
+        <!-- Page script -->
+
+
+
+        <script>
+            //if (self != top)
+            //    window.open(self.document.location, "_top", "");
+           Logout = function () {
+               var btnLogout = document.getElementById('<%=btnLogout.ClientID %>');
+               btnLogout.click();
+               sessionStorage.clear();
+           };
+        </script>
+    </form>
+</body>
+</html>

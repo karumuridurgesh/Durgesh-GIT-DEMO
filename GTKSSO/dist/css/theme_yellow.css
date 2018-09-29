@@ -1,0 +1,372 @@
+/* DHL Theme */
+
+
+/* End Nav bar and Side bar color*/
+
+.skin-blue .main-header .navbar {
+    background-color: #fc0 !important;
+}
+
+.skin-blue .main-header .logo {
+    background-color: #ffc101 !important;
+}
+
+
+.skin-blue .main-sidebar,
+.skin-blue .left-side {
+    background-color: #fc0 !important;
+}
+
+.skin-blue .wrapper {
+    background-color: #ecf0f5 !important;
+}
+
+
+.skin-blue .sidebar-menu > li > .treeview-menu {
+    background: #ffc101 !important;
+}
+
+.skin-blue .sidebar-menu > li:hover > a,
+.skin-blue .sidebar-menu > li.active > a {
+    color: #fff !important;
+    background: #ca200d !important;
+    border-left-color: #ffffff !important;
+}
+
+@media (min-width: 768px) {
+    .main-sidebar .nav-tabs.nav-justified > li {
+        background-color: #c42400 !important;
+    }
+}
+
+.nav-tabs.control-sidebar-tabs > li.active > a,
+.nav-tabs.control-sidebar-tabs > li.active > a:hover,
+.nav-tabs.control-sidebar-tabs > li.active > a:focus,
+.nav-tabs.control-sidebar-tabs > li.active > a:active {
+    background: #f1be04;
+}
+
+
+/* End Nav bar and Side bar color*/
+
+
+/*date range picker*/
+
+.ranges li {
+    color: #ca200d !important;
+}
+
+    .ranges li.active,
+    .ranges li:hover {
+        background-color: #ca200d !important;
+        border: 1px solid #ca200d !important;
+        color: #fff !important;
+    }
+
+.calBtn {
+    background: #ca200d;
+    border: 1px solid #ca200d;
+}
+
+    .calBtn:hover {
+        background: #e62914;
+    }
+
+.daterangepicker td.active,
+.daterangepicker td.active:hover {
+    background-color: #ca200d !important;
+}
+/*End date range picker*/
+
+
+
+.skin-blue h3.box-title {
+    color: #c42400;
+    text-transform: uppercase;
+}
+
+
+
+
+a,
+a:hover,
+a:active,
+a:focus {
+    color: #ca210e;
+}
+
+.main-footer a {
+    color: #c42400;
+}
+
+
+.more_text {
+    color: #c42400;
+}
+
+
+
+.num-list-top li.active .label.label_bg {
+    background-color: #c42400 !important;
+}
+
+.label_bg {
+    background-color: #f39c12;
+}
+
+.inside_box {
+    border-top: 1px solid #ca200d !important;
+}
+
+
+.box.box-primary {
+    border-top-color: #c42400;
+}
+
+/*Custom nav tabs*/
+.nav-tabs-custom > .nav-tabs > li:hover > a {
+    background-color: #fff;
+    color: #c42400;
+}
+
+.nav-tabs-custom > .nav-tabs > li.active {
+    border-top-color: #c42400;
+}
+
+.nav-tabs-custom > .nav-tabs > li:first-of-type.active > a {
+    color: #c42400;
+}
+
+.nav-tabs-custom > .nav-tabs > li.active > a,
+.nav-tabs-custom > .nav-tabs > li.active:hover > a {
+    color: #c42400;
+}
+
+/*End Custom nav tabs*/
+
+/* vertical tab color*/
+.slim_tab.vertical_inside_tab .nav-tabs li.active {
+    border-left: 2px solid #c42400;
+    border-bottom: 0px solid #3c8dbc !important;
+}
+
+    .slim_tab.vertical_inside_tab .nav-tabs li.active a {
+        color: #ca200d;
+    }
+
+/*slim tab color*/
+.skin-blue .slim_tab .nav-tabs li.active {
+    border-bottom: 2px solid #c42400;
+}
+
+
+.num-list-top li.active .label.label-bg {
+    background-color: #c42400 !important;
+}
+
+
+
+.page-header {
+    color: #c42400;
+}
+
+.bg-yellow,
+.callout.callout-warning,
+.alert-warning,
+.label-warning,
+.modal-warning .modal-body {
+    background-color: #f39c12 !important;
+}
+
+.main_table th {
+    background-color: #c42400 !important;
+    color: #fff !important;
+    border-color: #fff !important;
+}
+
+.callout.callout-info {
+    background-color: #c42400 !important;
+    box-shadow: 0px 0px 9px 1px #969696;
+    border: 1px solid #9c1f03;
+}
+
+.tab-content .fa-search::before {
+    color: #ca200d;
+}
+
+
+/* vertical tab*/
+.vertical_tab > li.active > a,
+.vertical_tab > li.active > a:focus,
+.vertical_tab > li.active > a:hover {
+    color: #bf2700;
+    background-color: #ffffff;
+    border-left: 3px solid #c42400 !important;
+}
+
+.btn-primary {
+    background-color: #bf2700;
+    border-color: #a72504;
+}
+
+.label.label-bg {
+    background-color: #fc0 !important;
+}
+
+#control-sidebar-filters-tab .btn-primary {
+    background-color: #bf2700 !important;
+    border-color: #a52605 !important;
+}
+
+#control-sidebar-home-tab .btn-primary {
+    background-color: #bf2700 !important;
+    border-color: #a52605 !important;
+}
+
+#control-sidebar-filters-tab .sidebar-menu .dropdown-menu a {
+    color: #0c0c0c !important;
+}
+
+.exp_header a {
+    color: #c42400 !important;
+}
+
+.carousel-indicators .active {
+    background: #c42401;
+}
+
+
+    /* shipping type flight img */
+    .down_arrow {
+    color: #ca200d;
+}
+
+    .down_arrow:hover {
+        background: #ca200d;
+    }
+
+.bol_con_down .fa {
+    color: #ca200d;
+}
+
+    .bol_con_down .fa:hover {
+        background: #ca200d;
+    }
+
+.angle_click .fa-angle-up,
+.angle_click .fa-angle-down {
+    color: #ca200d;
+}
+
+.angle_click:hover {
+    background: #ca200d;
+}
+
+
+/*download icon css*/
+
+.doc_download_icon:hover {
+    background: #ca200d;
+    color: #fff;
+}
+
+
+/* end download icon css*/
+
+.document_img .document_text {
+    background: #d4483a;
+    border-top: 1px solid #ca210e;
+}
+
+.custom_check_body input:checked ~ .custom_checkmark {
+    background-color: #ca200d;
+}
+
+.select_all_text:hover {
+    color: #ca200d;
+}
+
+
+/* Invoice tab css */
+
+.invoice_btn_po .btn-default,
+.header_bond_btn .btn-default {
+    color: #ca200d;
+}
+
+.invoice_btn_po.open > .dropdown-toggle.btn-default:focus,
+.invoice_btn_po.open > .dropdown-toggle.btn-default:hover {
+    color: #ca200d;
+}
+
+.header_bond_btn.open > .dropdown-toggle.btn-default:focus,
+.header_bond_btn.open > .dropdown-toggle.btn-default:hover {
+    color: #ca200d;
+}
+
+
+
+.modal-header {
+    background-color: #fc0;
+}
+
+/* -- kendo ui table-- */
+
+.k-block,
+.k-draghandle,
+.k-grid-header,
+.k-grouping-header,
+.k-toolbar,
+.k-treemap-tile,
+html .km-pane-wrapper .k-header {
+    background-color: #c42401 !important;
+}
+
+
+.k-grid .k-header {
+    background-color: #c42401 !important;
+}
+
+.k-primary {
+    border-color: #c42400;
+    background-color: #c42400 !important;
+}
+/*sso dashboard grid pagenation numbers*/
+.k-pager-numbers .k-state-selected {
+    background-color: #c42402;
+    border-color: #861b05;
+}
+
+
+/* ---end kendo ui table--- */
+
+
+/*login_page_design*/
+
+.login .login__form .btn {
+    background: #ca200d;
+}
+
+.login .login__form .forgot_pwd a{
+    color: #ca200d;
+}
+
+
+.login .login__form .md-input-bar:before, .login .login__form .md-input-bar:after {
+    background: #ca210e;
+}
+
+.login .login__form .input:focus {
+    border-color: #ca210e;
+}
+
+.login .login__form h3.change_pwd {
+    color: #ca210e;
+}
+
+
+
+
+
+
+/*end login page*/

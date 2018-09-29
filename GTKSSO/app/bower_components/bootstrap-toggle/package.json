@@ -1,0 +1,53 @@
+{
+  "name": "bootstrap-toggle",
+  "description": "Bootstrap Toggle is a highly flexible Bootstrap plugin that converts checkboxes into toggles",
+  "version": "2.0.0",
+  "keywords": [
+    "bootstrap",
+    "toggle",
+    "bootstrap-toggle",
+    "switch",
+    "bootstrap-switch"
+  ],
+  "homepage": "http://www.bootstraptoggle.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/minhur/bootstrap-toggle.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Min Hur",
+    "email": "min.hur@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/minhur/bootstrap-toggle/issues"
+  },
+  "devDependencies": {
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-cssmin": "^0.10.0",
+    "grunt-contrib-uglify": "^0.6.0"
+  },
+  "gitHead": "19225b4197c703e18730ae0500ec9df2b00c0e1f",
+  "_id": "bootstrap-toggle@2.0.0",
+  "scripts": {},
+  "_shasum": "e148409683b568c12ee17cb418d4d14b8c43d88c",
+  "_from": "bootstrap-toggle@*",
+  "_npmVersion": "2.0.2",
+  "_nodeVersion": "0.10.32",
+  "_npmUser": {
+    "name": "minhur",
+    "email": "minhur@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "minhur",
+      "email": "minhur@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "e148409683b568c12ee17cb418d4d14b8c43d88c",
+    "tarball": "http://registry.npmjs.org/bootstrap-toggle/-/bootstrap-toggle-2.0.0.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/bootstrap-toggle/-/bootstrap-toggle-2.0.0.tgz"
+}

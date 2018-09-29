@@ -1,0 +1,463 @@
+/** {
+	padding:0;
+	margin:0;
+}
+body {
+	background-image:url(images/bg-outer.gif);
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:10px;
+	
+	}
+#wrap {
+	background-color:#383838;
+	width:1024px;
+	margin:0 auto;
+	padding-top:10px;
+}
+#header {
+	clear:both;
+	height:105px;
+	width:1024px;
+	background-color:#383838;
+}
+	#header .left {
+		background-image:url(images/left-header-bg.png);
+		background-repeat:no-repeat;
+		float:left;
+		width:9px;
+		height:105px;
+		margin-left:10px;
+		
+	}
+	
+		#header .center {
+	background-color:#686866;
+	background-repeat:no-repeat;
+	float:left;
+	width:986px;
+	height:105px;
+		
+	}
+	
+		#header .right {
+		background-image:url(images/right-header-bg.png);
+		background-repeat:no-repeat;
+		float:left;
+		width:9px;
+		height:105px;
+		margin-right:10px;
+		
+	}
+	
+		#header .logo {
+		background-image:url(images/GTK_logo.png);
+		background-repeat:no-repeat;
+		float:left;
+		width:120px;
+		height:75px;
+		float:left;
+		margin-top:6px;
+				
+	}
+	
+	#header .uti {
+		background-image:url(images/UTI-logo.png);
+		background-repeat:no-repeat;
+		float:right;
+		width:116px;
+		height:52px;
+		margin-top:23px;
+	}
+	
+		#header .powered {
+			color:#f2ce0a;
+			font-family:Verdana, Geneva, sans-serif;
+			font-size:10px;
+			font-style:normal;
+		
+	}
+	
+		#header .netwin {
+			color:#f2ce0a;
+			font-family:Verdana, Geneva, sans-serif;
+			font-size:14px;
+			font-style:normal;
+		
+	}
+	
+	#content {
+	clear:both;
+	background-color:#383838;
+	height:551px;
+	width:1024px;
+}
+	#content .loginbox {
+	background-color:#383838;
+	height:551px;
+	width:360px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+	#content .loginbox-left {
+		background-image:url(images/login-box-leftbg.png);
+		background-repeat:no-repeat;
+		float:left;
+		width:14px;
+		height:428px;
+		margin-top:64px;
+	
+}
+	#content .loginbox-center {
+		background-image:url(images/login-box-centerbg.png);
+		background-repeat:repeat;
+		float:left;
+		width:332px;
+		height:428px;
+		margin-top:65px;
+		height:426px;
+	
+}
+	#content .loginbox-right {
+		background-image:url(images/login-box-rightbg.png);
+		background-repeat:no-repeat;
+		float:left;
+		width:14px;
+		height:428px;
+		margin-top:64px;
+	
+}
+
+#content .loginbox-key {
+		background-image:url(images/login-keybg.png);
+		background-repeat:no-repeat;
+		width:189px;
+		height:75px;
+		margin-left:50px;
+		margin-top:11px;
+		
+	
+}
+#content .textbox {
+		background-image:url(images/textbox-bg.png);
+		background-repeat:no-repeat;
+		width:255px;
+		height:34px;
+		margin-left:48px;
+		margin-top:3px;
+		
+	
+}
+
+#content .textstyle {
+	color:#282828;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	margin-left:50px;
+	margin-top:5px;
+		
+}
+
+#content .loginbutton {
+		background-image:url(images/btn-login.png);
+		background-repeat:no-repeat;
+		width:71px;
+		height:25px;
+		margin-left:48px;
+		margin-top:3px;
+		float:right;
+		margin-right:30px;
+		margin-top:-63px;
+		
+	
+}
+#content .save {
+	color:#282828;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:10px;
+	margin-left:5px;
+	float:left;
+	margin-top:5px;
+		
+}
+
+#content .about {
+	color:#000;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+	margin-left:5px;
+	float:left;
+	margin-top:50px;
+		
+}
+
+
+.blacklabel
+{
+    font-family: Verdana;
+    color: #8e8e8e;
+    vertical-align: middle;
+    font-size: 12px;
+    font-weight: bold;
+}
+.label_login
+{
+	font-family:Verdana;
+	color:#8e8e8e;
+	font-size:12px;
+	font-weight: bold;
+}
+
+
+
+
+*/
+
+.bodylgn{ font-family: Verdana, Arial, Helvetica, sans-serif;
+                        font-size: 12px; color: #999999;}
+.body_bg{margin:0;width:100%;background-color: #fff;}
+.login_wid{width:1024px;margin:0 auto;}
+.lgn_logo{height: 40px;float:right; width: 135px;margin-right:50px;margin-top:20px;}
+.lgn_form{margin:0 auto;width:400px; background-color: #fff;margin-top: 10px;border:1px solid #bababa;padding:20px 20px 0px 20px;border-radius:15px;}
+.lgn_frm{margin-right: 50px;}
+.lgn_drpdwn{Width:177px;Height:28px;margin-left:10px;}
+.frm_cntrl{margin-right: 50px;}
+.usr_code{Width:175px;Height:22px;margin-left:10px;text-transform:none !important;}
+.usr_pwd{Width:175px;Height:22px;margin-left:10px;text-transform:none !important;}
+.lgn_frm{width: 428px; height: 30px; clear: both; font-family: Verdana, Arial, Helvetica, sans-serif;padding-top:10px;font-size: 12px; color: #999999;}
+.frgt_user{float:left; margin-left: 66px; }
+.frgt_ucode{margin-bottom: 15px;Color:#3268ff !important;}                            
+.frgt_pwd{float:left;margin-top:10px;}
+.pgap{padding:0px 0px 5px 0px;margin:0px;}
+.btnlgn{float:left;margin:10px 0 0 10px;}
+.lgnerr{width: 100%; height: 10px; clear: both; margin-left: 10px; font-family: Verdana, Arial, Helvetica, sans-serif;
+                            font-size: 12px; color: #999999}
+.lgnerror{height: 30px; margin-bottom: 5px; margin-left: 10px; height: 50px}
+.formrow{margin-top:0; width:350px;clear: both;}
+.formRow1{padding: 5px 0px; clear: both;}
+.lgnsprt{margin:0 auto;width:400px;text-align:center;font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 13px;
+                        color: #333;}
+.sprtxt{height: 24px; font-family: Verdana, Arial, Helvetica, sans-serif; color: red;font-size: 15px; text-transform: uppercase;line-height: 40px;
+                            margin-right: 0px;font-weight:bold;}
+.lgnaddrs{padding: 8px 0px 4px 0px;color:#000;margin:0 auto}
+.lgnprdts{width:50%;clear: both; background-color:Transparent;margin:0 auto;text-align:center;}
+.formlabel2{margin-left: 106px; margin-top: 5px;}
+.Image1{margin-top:20%}
+.globe_img{margin-top: 2px; float: left;}
+
+
+.modalBackground
+        {
+            filter: alpha(opacity=10);
+            opacity: 0.2;
+            background-color: Gray;
+        }
+        .overlay
+        {
+            border: black 1px solid;
+            padding: 5px;
+            z-index: 100;
+            width: 99.08%;
+            height: 98%;
+            position: absolute;
+            background-color: #fff;
+            -moz-opacity: 0.75;
+            opacity: 0.75;
+            filter: alpha(opacity=75);
+            font-family: Tahoma;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .btnForgotSave
+        {
+         /*   background-image: url(Images/forgot_submit.png);*/
+            width: 69px;
+            border: 0px;
+            height: 26px;
+            background-repeat: no-repeat;
+            background-color: Transparent;
+        }
+        .login_chngfor
+        {
+            /*background-image:url(images/login_bg_5_10.png);
+            background-image: url( Images/login_forgot.png);*/
+            width: 425px;
+            border:1px solid #666;
+            height: 332px;
+            background:#fff;
+            margin:0 auto;
+            border-radius:15px;
+        }
+        .btnuserLogin
+        {
+           /* background-image: url( Images/login_log_but1.png);*/
+            width: 70px;
+            border: 0px;
+            height: 27px;
+            background-repeat: no-repeat;
+            background-color: Transparent;
+        }
+        .login_bg
+        {
+            /*background-image:url(images/login_bg_5_10.png);
+            background-image: url( Images/login_select.png);*/
+            width: 427px;
+            height: 334px;
+        }
+        div.formRow
+        {
+            width: 420px;
+            overflow: hidden;
+            clear: both;
+            margin: 0 0 3px 0;
+            padding: 5px 0;
+            font-size: 12px;
+        }
+        div.formRow span.formLabel
+        {
+            width: 80px;
+            font-weight: normal;
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            margin-left: 47px;
+            margin-top: 3px;
+            text-align: left;
+            float: left;
+            color: #999999;
+            padding-left: 20px;
+        }
+        div.formRow span.formLabel2
+        {
+            width: 120px;
+            font-weight: normal;
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            margin-left: 47px;
+            margin-top: 3px;
+            text-align: left;
+            float: left;
+            color: #FFFFFF;
+            padding-left: 20px;
+        }
+        div.formRow span.formControl
+        {
+            width: 150px;
+            text-align: right;
+            float: left;
+        }
+        div.formRow textarea
+        {
+            width: 200px;
+            height: 120px;
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-weight: normal;
+            font-size: 12px;
+        }
+        div.formRow input.formButton
+        {
+            background: #666;
+            font-weight: bold;
+            color: #fff;
+        }
+        div.formRow label
+        {
+            display: inline !important;
+        }
+        .currentRow
+        {
+            background: #ffc !important;
+        }
+        .globe_img
+        {
+            width: auto;
+            height: 88px;
+            background-image: url( Images/LoginGTK_logo.png);
+            background-repeat: no-repeat;
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+        .gt
+        {
+            font-family: Verdana;
+            font-size: 12px;
+            color: #a0fc7f;
+            font-weight: normal;
+        }
+        .globe_img2
+        {
+            width: 98px;
+            height: 88px;
+            background-image: url( Images/adriantnt.com_globe1.gif);
+            background-repeat: no-repeat;
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+        div.formRow1
+        {
+            width: 420px;
+            overflow: hidden;
+            clear: both;
+            margin: 0 0 3px 0;
+            padding: 5px 0;
+            font-size: 12px;
+        }
+        div.formRow span.formLabel1
+        {
+            width: 100px;
+            font-weight: normal;
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            margin-left: 2px;
+            margin-top: 3px;
+            text-align: left;
+            float: left;
+            color: #FFFFFF;
+            padding-left: 5px;
+        }
+        div.formRow span.formControl1
+        {
+            width: 200px;
+            text-align: right;
+            float: right;
+        }
+        div.formRow span.formControl2
+        {
+            width: 110px;
+            text-align: right;
+            float: left;
+        }
+        div.formRow textarea11
+        {
+            width: 200px;
+            height: 120px;
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-weight: normal;
+            font-size: 12px;
+        }
+        div.formRow input.formButton11
+        {
+            background: #666;
+            font-weight: bold;
+            color: #fff;
+        }
+        div.formRow label1
+        {
+            display: inline !important;
+        }
+        .currentRow1
+        {
+            background: #ffc !important;
+        }
+        .Disabletextbox1
+        {
+            color: #000000;
+            background-color: activeborder; /*   border-style: none;
+            font-family: Verdana;
+            font-size: 12px;
+            font-weight: normal;
+            font-style: normal;
+             background-color: activeborder;*/
+           /*   height: 30px;   margin-left: 16px;*/
+        }

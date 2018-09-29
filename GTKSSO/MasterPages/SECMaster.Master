@@ -1,0 +1,173 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SECMaster.master.cs" Inherits="GTKSSO.SECMaster" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title> 
+    <meta http-equiv="Page-Enter" content="blendTrans(Duration=0)"> 
+    <meta http-equiv="Page-Exit" content="blendTrans(Duration=0)">
+    <meta http-equiv="X-UA-Compatible" content="IE=Emulate7" />
+ <style>
+ .mst_iconset
+ {
+     min-width: 35px !important;
+     margin-left: 550px !important;
+     }
+ </style>  
+    <style id="antiClickjack">body{display:none !important;}</style>
+    <script src="../ClientScrips/FrameBuster.js" type="text/javascript"></script>
+<script type="text/javascript" src="http://assets.freshdesk.com/widget/freshwidget.js"></script> 
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+
+
+ 
+    <script type="text/javascript">
+
+
+        function HidePageContentWhileLoading() {
+            document.getElementById('loading').style.display = 'none';
+            document.getElementById('divPageContent').style.display = 'block';
+
+            if (typeof PageMethods != 'undefined')
+                PageMethods.set_path(window.location.pathname);
+
+        }
+        
+    </script>
+
+</head>
+<body onload="FrameBuster()">
+
+   
+
+    <form class="secmaster_border" id="form1" runat="server">
+    <div id="wrap" style="position: relative;" class="master_border">
+        <div id="header">
+            <div class="gtk_logo" style="cursor: pointer" onclick="javascript:RedirectURL();">
+            </div>
+            <asp:HiddenField ID="hfDynamicKey" runat="server" />
+            <asp:HiddenField ID="hfDynamicValue" runat="server" />
+            <div class="Da_header">
+              
+                <div>
+                    <div  class="mst_module">
+                       <%-- <div class="mst_module_in">
+                        </div>--%>
+                        <div class="mst_name" style="margin-top:0px;">
+                            <div><asp:Label ID="Label1" runat="server" CssClass="label" Style="font-size: 15px;">SSO</asp:Label></div><div style="clear:both;"></div>
+                           <div><asp:Label ID="lblMod" runat="server" CssClass="label" Style="font-size: 11px;">Welcome:</asp:Label><asp:Label ID="lblUserCode" runat="server" CssClass="label" Style="font-size: 11px;margin-left:5px;"></asp:Label></div>
+                        </div>
+                    </div>
+                    <div class="mst_iconset">
+                        <div style="width: 10px; height: 34px; float: left;" class="bgDivLeft">
+                        </div>
+                        <div style="width: 0px; float: left">
+                        </div>
+                        <div style="min-width: 35px; float: left; height: 34px;" class="bgDivCenter">
+                            <div id="divSG" runat="server" style="width: 18px; height: 25px; float: left; cursor: pointer;
+                                margin-left: 10px; display: none; margin-top: 3px;" title="Screen Guide" onclick="return OpenScreenDetails();"
+                                class="bgScreenHelp">
+                            </div>
+                            <div id="divLogOut" runat="server" class="logoutout" style="width: 25px; height: 25px;
+                                cursor: pointer; float: left; margin-left: 10px; margin-top: 3px;" title="LogOut"
+                                onclick="return Logout();" onmouseover="hoverImage();" onmouseout="outImage();">
+                            </div>
+                        </div>
+                        <asp:Button ID="btnLogout" runat="server" OnClick="btnLogout_Click" UseSubmitBehavior="false"
+                            CssClass="HiddenButtons" />
+                        <div style="width: 10px; height: 34px; float: left;" class="bgDivRight">
+                        </div>
+                    </div>
+                    <div style="height: 40px; float: right; margin-top: 5px; margin-right: 50px;" id="divGtkLogo">
+                        <input type="image" id="imglogo" runat="server" src="~/App_Themes/Yellow/Images/ShowLogo.png" style="height: 40px; width: 135px;" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="ContDiv" runat="server" class="contentdiv" style="display: none; position: absolute;
+            right: -127px; top: 80px;">
+        </div>
+        <asp:Label ID="lblOrgName" runat="server" Visible="false" CssClass="label"></asp:Label>
+        <div id="main" style="clear: both; margin-top: 0px; clear: both;">
+            <table cellpadding="0" cellspacing="0">
+                <tr>
+                    <td>
+                        <div id='cssmenu'>
+                            <ul runat="server" id="ulmain">
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="menu_srip_header" style="display: none">
+                    <td style="width:100%">
+                        <div style="width:1024px !important">
+                            <asp:Label runat="server" ID="LblPage"></asp:Label>
+                            <asp:Button runat="server" ID="btnVw" CssClass="VwIcon" Style="height: 16px; width: 16px;display:none;
+                                float: right; background-color: Transparent; border-style: none;" OnClientClick="return OpenUploadDocs();" />
+                            <span style="width: 16px; margin-right: 2px; float: right; height: 16px; cursor: pointer;display:none;"
+                                title="Standard Text" onclick="return StdText();" class="bgPushPin">
+                            </span>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div style="vertical-align: top; clear: both; min-height: 530px;" class="GT_SEC_BCKCOLOR"
+                            id="GT_SEC_BCKCOLOR">
+                            <table style="vertical-align: top; margin-top: 0px; width: 100%;" border="0" cellpadding="0"
+                                cellspacing="0">
+                                <tr>
+                                    <td>
+                                        <div id="loading" style="width: 1024px; text-align: center; color: White;">
+                                          </div><%--  please wait, page is loading...--%>
+                                        <div id="divPageContent" style="display: none;">
+                                            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                            </asp:ContentPlaceHolder>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="GT_SEC_BCKCOLOR" style="padding: 0px 0px -10px;">
+                        <%-- Edited by kowshal--%>
+                        <div id="footer" style="clear: both; margin-top: 0px; text-align: center;">
+                            <div class="fotter" id="divfooter" align="center" runat="server" style="margin-top: 0px">
+                                <div style="float: left; width: 30%; text-align: left; margin-left: 8px;">
+                                    <span class="label">Time zone:<span style="font-weight: bold"><%= Session["TimeZone"]%></span>
+                                    </span>
+                                </div>
+                                <div style="float: left; width: 50%;">
+                                    <span class="label" style="font-weight: bold;">© Copyright <%= DateTime.Now.Year %> GTKonnect, Inc.
+                                        All Rights Reserved</span></div>
+                                <div style="float: left; margin-left: 50px; text-align: right; margin-right: 8px">
+                                    <span class="label" style="width: 20%">Language:</span><asp:Label runat="server"
+                                        ID="lblLanguageCode" Style="font-weight: bold;" class="label"></asp:Label>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            
+        </div>
+    </div>
+    </form>
+    <script type="text/javascript">        function Logout() {
+            var btnLogout = document.getElementById('<%=btnLogout.ClientID %>');
+
+            btnLogout.click();
+        }
+        function hoverImage() {
+            var divLogOut = document.getElementById('<%=divLogOut.ClientID %>');
+            divLogOut.className = 'logoutHover';
+        }
+        function outImage() {
+            var divLogOut = document.getElementById('<%=divLogOut.ClientID %>');
+            divLogOut.className = 'logoutout';
+        }</script>
+</body>
+</html>

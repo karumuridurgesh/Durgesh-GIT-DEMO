@@ -1,0 +1,93 @@
+.textreflectionEffectWrapper
+{
+    margin: -28px 0 0;
+    height: 24px;
+}
+.textreflectionClone
+{
+    line-height: 0.7;
+}
+.textreflectionMask
+{
+    background: -moz-linear-gradient(top,rgba(0,0,0,0.5) 0%,rgba(0,0,0,1) 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(0,0,0,1)),color-stop(100%,rgba(0,0,0,0)));
+    background: -webkit-linear-gradient(top,rgba(0,0,0,0.5) 0%,rgba(0,0,0,1) 100%);
+    background: -o-linear-gradient(top,rgba(0,0,0,0.5) 0%,rgba(0,0,0,1) 100%);
+    background: -ms-linear-gradient(top,rgba(0,0,0,0.5) 0%,rgba(0,0,0,1) 100%);
+    background: linear-gradient(top,rgba(0,0,0,0.5) 0%,rgba(0,0,0,1) 100%);
+}
+.textreflectionMask.noGradients
+{
+    background: transparent url(../images/gradient-black.png) repeat-x 0 0;
+}
+.textreflectionWrapper
+{
+    position: relative;
+    overflow: visible;
+}
+.textreflectionEffectWrapper
+{
+    position: absolute;
+    overflow: hidden;
+    left: 100%;
+    padding: 0;
+    width: 100%;
+    z-index: 2;
+    top:50px;
+     opacity: 0.5;
+  filter: alpha(opacity = 50);
+}
+@media (max-device-width:320px)
+{
+    .textreflectionEffectWrapper
+    {
+        display: none;
+    }
+}
+.textreflection
+{
+    position: relative;
+    z-index: 1;
+    color:White;
+}
+.textreflectionClone
+{
+    position: absolute;
+    margin: 0;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    overflow: hidden;
+    height: 100%;
+    color:White;
+    -moz-transform: scaleY(-1);
+    -o-transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+    filter: FlipV;
+    
+   
+    
+    /*margin-left: 510px;
+    border: 3px solid #999;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-top: 0px;*/
+    text-align:right;
+    font-family:Verdana;
+    font-size:15px; 
+    color:White;
+    vertical-align:middle;
+    
+    
+    
+    
+}
+.textreflectionMask
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 1;
+}

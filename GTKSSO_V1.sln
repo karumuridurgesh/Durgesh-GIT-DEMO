@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GTKSSO", "GTKSSO\GTKSSO.csproj", "{BAAEF501-29E5-4B69-8C67-BD6B3C26BBC5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F5049BEF-4273-423D-BCE7-42C03501505C} = {F5049BEF-4273-423D-BCE7-42C03501505C}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GTKSSOLibrary", "GTKSSOLibrary\GTKSSOLibrary.csproj", "{31635636-D2CB-4AB5-847A-8470C812CC4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GTKUtilites", "GTKUtilites\GTKUtilites.csproj", "{7232FD01-E611-4914-B8C3-5377E48DF5BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GTKSSOAPI", "GTKSSOAPI\GTKSSOAPI.csproj", "{F5049BEF-4273-423D-BCE7-42C03501505C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BAAEF501-29E5-4B69-8C67-BD6B3C26BBC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAAEF501-29E5-4B69-8C67-BD6B3C26BBC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAAEF501-29E5-4B69-8C67-BD6B3C26BBC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAAEF501-29E5-4B69-8C67-BD6B3C26BBC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31635636-D2CB-4AB5-847A-8470C812CC4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31635636-D2CB-4AB5-847A-8470C812CC4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31635636-D2CB-4AB5-847A-8470C812CC4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31635636-D2CB-4AB5-847A-8470C812CC4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7232FD01-E611-4914-B8C3-5377E48DF5BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7232FD01-E611-4914-B8C3-5377E48DF5BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7232FD01-E611-4914-B8C3-5377E48DF5BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7232FD01-E611-4914-B8C3-5377E48DF5BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5049BEF-4273-423D-BCE7-42C03501505C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5049BEF-4273-423D-BCE7-42C03501505C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5049BEF-4273-423D-BCE7-42C03501505C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5049BEF-4273-423D-BCE7-42C03501505C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.gtkonnect.com/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = GTKSSO\\GTKSSO.csproj
+		SccProjectName1 = GTKSSO
+		SccLocalPath1 = GTKSSO
+		SccProjectUniqueName2 = GTKSSOAPI\\GTKSSOAPI.csproj
+		SccProjectName2 = GTKSSOAPI
+		SccLocalPath2 = GTKSSOAPI
+		SccProjectUniqueName3 = GTKSSOLibrary\\GTKSSOLibrary.csproj
+		SccProjectName3 = GTKSSOLibrary
+		SccLocalPath3 = GTKSSOLibrary
+		SccProjectUniqueName4 = GTKUtilites\\GTKUtilites.csproj
+		SccProjectName4 = GTKUtilites
+		SccLocalPath4 = GTKUtilites
+	EndGlobalSection
+EndGlobal

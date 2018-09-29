@@ -1,0 +1,160 @@
+.skin-gray .main-header {
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05)
+}
+.skin-gray .main-header .navbar-toggle {
+    color: #333
+}
+.skin-gray .main-header .navbar-brand {
+    color: #333;
+    border-right: 1px solid #eee
+}
+.skin-gray .main-header>.navbar {
+    background-color: #fff
+}
+.skin-gray .main-header>.navbar .nav>li>a {
+    color: #333
+}
+.skin-gray .main-header>.navbar .nav>li>a:hover,
+.skin-gray .main-header>.navbar .nav>li>a:active,
+.skin-gray .main-header>.navbar .nav>li>a:focus,
+.skin-gray .main-header>.navbar .nav .open>a,
+.skin-gray .main-header>.navbar .nav .open>a:hover,
+.skin-gray .main-header>.navbar .nav .open>a:focus {
+    background: #fff;
+    color: #999
+}
+.skin-gray .main-header>.navbar .navbar-custom-menu>.nav {
+    margin-right: 10px
+}
+.skin-gray .main-header>.navbar .sidebar-toggle {
+    color: #333
+}
+.skin-gray .main-header>.navbar .sidebar-toggle:hover {
+    color: #999;
+    background: #888
+}
+.skin-gray .main-header>.navbar>.sidebar-toggle {
+    color: #333;
+    border-right: 1px solid #eee
+}
+.skin-gray .main-header>.navbar .navbar-nav>li>a {
+    border-right: 1px solid #eee
+}
+.skin-gray .main-header>.navbar .navbar-custom-menu .navbar-nav>li>a,
+.skin-gray .main-header>.navbar .navbar-right>li>a {
+    border-left: 1px solid #eee;
+    border-right-width: 0
+}
+.skin-gray .main-header>.logo {
+    background-color: #fff;
+    color: #333;
+    border-bottom: 0 solid transparent;
+    border-right: 1px solid #eee
+}
+.skin-gray .main-header>.logo>a {
+    color: #333
+}
+.skin-gray .main-header>.logo:hover {
+    background: #888888
+}
+@media (max-width: 767px) {
+    .skin-gray .main-header>.logo {
+        background-color: #222;
+        color: #fff;
+        border-bottom: 0 solid transparent;
+        border-right: none
+    }
+    .skin-gray .main-header>.logo>a {
+        color: #fff
+    }
+    .skin-gray .main-header>.logo:hover {
+        background: #1f1f1f
+    }
+}
+.skin-gray .main-header li.user-header {
+    background-color: #222
+}
+.skin-gray .content-header {
+    background: transparent;
+    box-shadow: none
+}
+.skin-gray .user-panel>.image>img {
+    border: 1px solid #444
+}
+.skin-gray .user-panel>.info,
+.skin-gray .user-panel>.info>a {
+    color: #eee
+}
+.skin-gray .main-sidebar,
+.skin-gray .left-side,
+.skin-gray .wrapper {
+    background: #222
+}
+.skin-gray .sidebar>.sidebar-menu>li.header {
+    background: #1d1d1d;
+    color: rgba(255, 255, 255, 0.4)
+}
+.skin-gray .sidebar>.sidebar-menu>li>a {
+    margin-right: 1px;
+    border-left: 3px solid transparent
+}
+.skin-gray .sidebar>.sidebar-menu>li>a:hover,
+.skin-gray .sidebar>.sidebar-menu>li.active>a {
+    color: #fff;
+    background: #444;
+    border-left-color: #fff
+}
+.skin-gray .sidebar>.sidebar-menu>li>.treeview-menu {
+    background: #333
+}
+.skin-gray .sidebar a {
+    color: #eee
+}
+.skin-gray .sidebar a:hover {
+    text-decoration: none
+}
+.skin-gray .treeview-menu>li>a {
+    color: #ccc
+}
+.skin-gray .treeview-menu>li.active>a,
+.skin-gray .treeview-menu>li>a:hover {
+    color: #fff
+}
+.skin-gray .sidebar-form {
+    border-radius: 3px;
+    border: 1px solid #3c3c3c;
+    margin: 10px 10px
+}
+.skin-gray .sidebar-form input[type="text"],
+.skin-gray .sidebar-form .btn {
+    box-shadow: none;
+    background-color: #3c3c3c;
+    border: 1px solid transparent;
+    height: 35px;
+    -webkit-transition: all .3s cubic-bezier(.32, 1.25, .375, 1.15);
+    -o-transition: all .3s cubic-bezier(.32, 1.25, .375, 1.15);
+    transition: all .3s cubic-bezier(.32, 1.25, .375, 1.15)
+}
+.skin-gray .sidebar-form input[type="text"] {
+    color: #666;
+    border-top-left-radius: 2px !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-bottom-left-radius: 2px !important
+}
+.skin-gray .sidebar-form input[type="text"]:focus,
+.skin-gray .sidebar-form input[type="text"]:focus+.input-group-btn .btn {
+    background-color: #fff;
+    color: #666
+}
+.skin-gray .sidebar-form input[type="text"]:focus+.input-group-btn .btn {
+    border-left-color: #fff
+}
+.skin-gray .sidebar-form .btn {
+    color: #999;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 2px !important;
+    border-bottom-right-radius: 2px !important;
+    border-bottom-left-radius: 0 !important
+}

@@ -1,0 +1,33 @@
+﻿<section id="SecDashBLinks">
+    <div id="divDashBLinks" class="col-md-12 mt-15">
+        <ul id="panelbar" data-template="DashBLinksTmpl" data-bind="source: DashBoardLinks"></ul>
+    </div>
+</section>
+<script id="DashBLinksTmpl" type="text/x-kendo-template">
+    <li class="k-state-active">
+        <span> <i class="fa fa-th-large "></i>  #= head # &nbsp;&nbsp;</span>
+
+        <div id="divDashBSubLinks" class="dashbrdDiv">
+            <div class="box-body ">
+                <div class="row" data-template="DashBSubLinksTmpl" data-bind="source: items">
+
+                </div>
+            </div>
+        </div>
+
+    </li>
+</script>
+<script id="DashBSubLinksTmpl" type="text/x-kendo-template">
+    <a onclick="Redirect('#= AppHead #','#= APPId #');">
+        <div class="col-md-2 wdthFix">
+            <div class="box">
+                #if (AppImg != null && AppImg!="")  { #
+                <img src='../${AppImg}' width="100%" />
+                # } else { #
+                <div class='titleText'> <span>${ClientName}</span> </div>
+                # } #
+            </div>
+            <div class="text-center ellipsisTxt"><span>#=AppTag#</div>
+        </div>
+    </a>
+</script>

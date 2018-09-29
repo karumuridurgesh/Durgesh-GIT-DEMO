@@ -1,0 +1,1877 @@
+/* Below Styles are added by kowshal related to master screens */
+.mst_module
+{
+    float: left; width: 380px; margin-left: -10px;
+}
+.mst_module_in
+{
+    float: left; margin-left: -50px; margin-top: -8px;
+}
+.mst_name
+{
+     clear: both; margin-top: 32px; position: absolute; *margin-top: 0px!important;
+}
+.mst_iconset
+{
+ min-width: 215px; float: left; height: 34px; margin-top: 6px; background-color: Transparent;
+                        border: 1px solid #666; border-radius: 5px; margin: 5px;
+}
+/*Below Style is added by Abhilash on 12/14/2015*/
+.redmsg
+{
+    color:Red !important;
+}
+
+/* Below Style is added by Praveen related to HistoryIcon inmaster screens */
+.ShowHistoryIcon
+{
+    background-image: url(Images/History.png);
+    background-repeat: no-repeat;
+    border-style: none;
+    background-color: Transparent;
+    cursor: pointer;
+    width: 21px;
+    height: 21px;
+    z-index: 100;
+    float: right;
+}
+/* Below Style is added by Praveen related to forgot UserCode given by harish 25-09-2014*/
+.btnUserCode
+{
+    /*background: url(Images/forgot_submit.png);*/
+    width: 69px;
+    border: 0px;
+    height: 26px;
+    background-repeat: no-repeat;
+}
+
+/* Below Style is added by Praveen given by Chaitanya on 25-09-2014*/
+.ajax__calendar_container
+{
+    z-index: 1000;
+}
+
+
+/* Below Styles are modified & written by KOWSHAL */
+.master_border
+{
+    border: 1px solid #c00;
+}
+body
+{
+    margin: 0px; /*background: url(images/bg-outer.gif) repeat scroll center top;*/
+    width: 100%;
+    background-color: #D8D8D8; /*font-family:Calibri, Verdana !important;*/
+}
+.click-nav ul li ul li
+{
+    background-color: #fff;
+    border: 1px solid ccc;
+    color: #000;
+}
+
+.GT_SEC_BCKCOLOR
+{
+    clear: both;
+    background-color: #fff !important;
+}
+.modalPanel
+{
+    clear: both;
+    background-color: #fff !important;
+}
+#GT_SEC_BCKCOLOR
+{
+    clear: both;
+    background-color: #fff !important;
+    min-height: 559px !important;
+}
+.fotter
+{
+    height: 20px;
+    background-color: #fc0;
+    color: #000;
+    margin-left: -8px; /*background-image: url(images/fotter_img.gif);     background-repeat: repeat-x;*/
+    float: none;
+    position: relative;
+    top: 0;
+    bottom: 0;
+}
+.SECDASH_label
+{
+    font-family: Verdana;
+    color: #000;
+    vertical-align: middle;
+    font-size: 12px;
+    font-weight: normal;
+    white-space: normal;
+}
+
+.btnCancel
+{
+    /*background: url(Images/cancel.png);     background-repeat: no-repeat;*/
+    width: 64px;
+    border: 0px;
+    height: 26px;
+    color: #fff;
+}
+
+.btnGenerate
+{
+    /*background: url(Images/btnGenerate.png);*/
+    width: 73px;
+    border: 0px;
+    height: 26px;
+    background-repeat: no-repeat;
+}
+
+.accordionHeader
+{
+    border: 1px solid #fc0;
+    color: white;
+    background-color: #313C53;
+    font-family: Arial, Sans-Serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+/*Test class*/
+.accordionContent
+{
+    background-color: #313C53;
+    border: 1px solid #fc0;
+    border-top: none;
+    padding: 5px;
+    padding-top: 10px;
+    color: #FFFFFF;
+    font-family: verdana;
+}
+
+.datatable
+{
+    border: 1px solid #fc0;
+    border-collapse: collapse;
+}
+.datatabletd
+{
+    border: 1px solid #fc0;
+}
+.datatableth
+{
+    border: 1px solid #fc0;
+}
+
+.wfclass
+{
+    width: 1000px;
+    border: solid 1px #fc0;
+    background: #f0f0f0;
+}
+.dash_Exports, .dash_Protest, .dash_DWB, .dash_FTZ, .dash_partner, .dash_Integration, .dash_GPM, .dash_ISF, .dash_CTPAT, .dash_TA, .dash_CM, .dash_VM, .dash_menuAccounting, .dash_menuDps, .dash_menuSecurity, .dash_nafta, .dash_menuParts, .dash_menuPreEntry, .dash_menuImporter, .dash_menuMaster, .dash_Inbond
+{
+    border: 3px solid #666;
+}
+
+
+#header
+{
+    /*height: 104px; Commented By Kowshal     background-image: url(images/header_bg_new1.png);     background-repeat: repeat-x; */
+    border-bottom-color: #999999;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu_srip_header
+{
+    background-color: #fc0;
+    color: #000;
+    font-family: Verdana;
+    text-align: center;
+    font-size: 12px;
+    padding: 1px 0px 2px 0;
+    font-weight: normal;
+}
+.gvtd02
+{
+    border-bottom: 1px solid #fc0;
+    text-align: left;
+    color: #000;
+    padding: 3px 8px 3px 8px;
+    vertical-align: middle;
+}
+.gvtd02c
+{
+    border-bottom: 1px solid #fc0;
+    text-align: center;
+    color: #000;
+    padding: 3px 8px 3px 8px;
+    vertical-align: middle;
+}
+
+.gvtd02r
+{
+    border-bottom: 1px solid #fc0;
+    text-align: right;
+    color: #000;
+    padding: 3px 8px 3px 8px;
+    vertical-align: middle;
+}
+.gvtd02e
+{
+    border-bottom: 1px solid #fc0;
+    text-align: center;
+    color: red;
+    padding: 20px 8px 20px 8px;
+    vertical-align: middle;
+}
+
+/* ADded by Kowshal*/
+.Da_header .label
+{
+    font-weight: bold;
+    color: #000;
+}
+.fieldset
+{
+    border: 1px solid #fc0;
+    font-weight: lighter;
+}
+
+.legend
+{
+    padding: 0.2em 0.5em;
+    border: 0px solid #fc0;
+    color: #fff;
+    font-size: 13px;
+    text-align: left;
+    font-family: Verdana;
+    margin-left: 8px\0/;
+    background-color: #c00;
+    font-weight: bold;
+}
+legend
+{
+    background-color: #c00;
+    border: 0px solid #fc0;
+    font-size: 13px;
+    text-align: left;
+    font-family: Verdana;
+    padding: 8px 5px 2px 8px !important;
+    color: #fff !important;
+    height: 20px !important;
+    font-weight: bold;
+}
+
+fieldset
+{
+    border: 1px solid #fc0 !important;
+}
+#datatable
+{
+    border: 1px solid #fc0;
+    border-collapse: collapse;
+}
+#datatable td, .datatable th
+{
+    border: 1px solid #fc0;
+}
+
+.btnGenerate
+{
+    /*background: url(Images/generate.png);*/
+    width: 67px;
+    border: 0px;
+    height: 28px;
+    background-repeat: no-repeat;
+}
+
+.btnEmpty
+{
+    /*     background:url(Images/save_but.png);     background: url(Images/but_empty.png);     background-repeat: no-repeat; */
+    width: 69px;
+    border: 0px;
+    height: 26px;
+    font-family: Verdana;
+    font-size: 12px;
+    color: #FFFFFF;
+    font-weight: normal;
+    text-align: center;
+}
+a.btnEmpty
+{
+    height: 16px;
+    text-decoration:none;
+    }
+  .bldHdrTitle
+  {color: #c00;
+font-weight: bold;
+text-align: center;
+padding-left: 10px;
+clear: both;
+      }  
+.btnEmptyMax
+{
+    /*     background:url(Images/save_but.png);     background: url(Images/empty_but.png);      background-repeat: no-repeat;*/
+    width: 119px;
+    background: #c00;
+    border: 0px;
+    height: 26px;
+    font-family: Verdana;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+.btnEmptyLarge
+{
+    /*     background:url(Images/save_but.png);      background: url(Images/but_emptyLarge.png);     background-repeat: no-repeat;*/
+    width: 140px;
+    border: 0px;
+    height: 26px;
+    font-family: Verdana;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+.btnEmptyLarge1
+{
+    /*     background:url(Images/save_but.png);     background: url(Images/but_emptyLarge1.png);     background-repeat: no-repeat; */
+    width: 156px;
+    border: 0px;
+    height: 26px;
+    font-family: Verdana;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+
+.tableborder01
+{
+    border: 1px solid #fc0;
+}
+div.tabContent
+{
+    border: 1px solid #fc0;
+    padding: 0.3em 0 0.3em 0.3em; ;
+}
+
+.DashBoardLi
+{
+    padding-top: 0px;
+    color: #000;
+    width: 105px;
+    font-family: Verdana;
+    font-size: 11px;
+}
+/* written by kowshal*/
+.DashBoardLi_1
+{
+    padding-top: 0px;
+    border: 0px;
+    background-color: Transparent;
+    color: #000;
+    width: 100px;
+    display: block;
+    outline: none;
+    cursor: pointer;
+    font-family: Verdana;
+    font-size: 11px;
+}
+
+
+.Bindimage
+{
+    /*background: url('Images/empty_dashboard_bg.png');     height: 192px;*/
+    width: 112px;
+    margin-top: 30px;
+    text-align: center;
+    padding: 0px;
+}
+
+.WfclassWrkFlow
+{
+    background: none repeat scroll 0 0 #F0F0F0;
+    border: 1px solid #fc0;
+    width: 1000px;
+    height: 20px;
+    background-color: #b98f00;
+}
+.VMSReqborder
+{
+    border: thin solid #fc0;
+    width: 16%;
+    background-color: Black;
+}
+.mainHdr
+{
+    color: #FFFFFF;
+    font-family: Verdana;
+    font-size: 13px;
+    font-weight: normal;
+    background-color: #cc0000;
+    line-height: 3;
+}
+.gvROHdr
+{
+    background-color: #cc0000;
+    color: #FFFFFF;
+    font-family: Verdana;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+
+
+.RObackBorderColors
+{
+    background-color: #cc0000;
+    border-color: #FC0;
+}
+.gvROSFHdr
+{
+    background-color: #cc0000;
+    color: #FFFFFF;
+    font-family: Verdana;
+    font-size: 11px;
+    font-weight: normal;
+}
+.ROSFbackBorderColors
+{
+    background-color: #cc0000;
+    border-color: #FC0;
+    color: #fff;
+}
+.gvSREHdr
+{
+    background-color: #cc0000;
+    color: #FFFFFF;
+    font-family: Verdana;
+    font-size: 13px;
+    font-weight: normal;
+    vertical-align: bottom;
+}
+
+.SREbackBorderColors
+{
+    background-color: #cc0000;
+    border-color: #FC0;
+}
+.DvStyle
+{
+    float: left;
+    width: 240px;
+    font-family: Verdana;
+    color: #000; /* Modified from white to black by kowshal*/
+    vertical-align: middle;
+    font-size: 12px;
+    font-weight: normal;
+    white-space: normal;
+}
+.moduletop
+{
+    /*background:#fafaf9 url(images/img-over-top.png) no-repeat scroll*/ ;
+width:138px;
+height:10px;
+list-style:none;
+clear:both;
+}
+.modulemidle
+{
+    background: #fafaf9 /*  url(images/img-over-middle.png) repeat-y scroll*/;
+    width: 138px;
+    height: 17px;
+    clear: left;
+    color: #fff; /* color: #ffe385; ----- commented and edited by kowshal*/
+    list-style: none outside none;
+    text-align: left;
+    padding-left: 14px;
+    padding-bottom: 5px;
+    z-index: 400px;
+}
+
+.modulebottom
+{
+    background: #fafaf9 /*  url(images/img-over-bottom.png) no-repeat scroll*/;
+    width: 138px;
+    height: 7px;
+    list-style: none;
+    clear: both;
+    vertical-align: top;
+}
+.MoreMenu
+{
+    position: relative;
+    left: 246px;
+    z-index: 999;
+    display: none;
+    list-style: none;
+    clear: both;
+    width: 90px;
+    height: auto;
+    list-style: none;
+}
+.BLdetails
+{
+    border-bottom: 1px solid #000000;
+    float: left;
+    padding: 0 2px;
+    border-left: 1px solid #fc0;
+}
+.Itemdetails
+{
+    border-bottom: 1px solid #000000;
+    float: left;
+    padding: 0 2px;
+    border-left: 1px solid #fc0;
+}
+.asn_textbox
+{
+    border: 1px solid #fc0;
+}
+.BLdetails
+{
+    border-bottom: 1px solid #000000;
+    float: left;
+    padding: 0 2px;
+    border-left: 1px solid #fc0;
+}
+.Itemdetails
+{
+    border-bottom: 1px solid #000000;
+    float: left;
+    padding: 0 2px;
+    border-left: 1px solid #fc0;
+}
+.BLdetailshdr
+{
+    border-bottom: 1px solid #000000;
+    float: left;
+    border-left: 1px solid #fc0;
+    padding: 0 2px;
+    background-color: #cc0000;
+    height: 20px;
+    color: White;
+}
+.cntainerhdr
+{
+    border-bottom: 1px solid #000000;
+    float: left;
+    background-color: #cc0000;
+    color: White;
+    border-left: 1px solid #fc0;
+}
+.blcntainerdiv
+{
+    float: left;
+    border-top: 1px solid #000000;
+    border-left: 1px solid #fc0;
+    border-right: 1px solid #000;
+    width: 334px;
+    color: Black;
+    background-color: White;
+}
+.chrgedetailshdr
+{
+    border-bottom: 1px solid #000000;
+    float: left;
+    border-left: 1px solid #fc0;
+    background-color: #cc0000;
+    height: 20px;
+    color: White;
+}
+
+.divsno
+{
+    float: left;
+    width: 100px;
+    background-color: #383838;
+    text-align: center;
+    border-bottom: 1px solid #fc0;
+}
+.divcheckbox
+{
+    float: left;
+    width: 100px;
+    text-align: center;
+    border-bottom: 1px solid #fc0;
+}
+.divname
+{
+    float: left;
+    width: 100px;
+    border-left: 1px solid #fc0;
+    background-color: #383838;
+    text-align: center;
+    color: White;
+    border-bottom: 1px solid #fc0;
+}
+.divtname
+{
+    float: left;
+    width: 100px;
+    border-left: 1px solid #fc0;
+    text-align: center;
+    border-bottom: 1px solid #fc0;
+}
+.divtype
+{
+    float: left;
+    width: 98px;
+    border-left: 1px solid #fc0;
+    background-color: #383838;
+    text-align: center;
+    color: White;
+    border-bottom: 1px solid #fc0;
+}
+.divttype
+{
+    float: left;
+    width: 98px;
+    border-left: 1px solid #fc0;
+    text-align: center;
+    border-bottom: 1px solid #fc0;
+}
+
+.ulLang_a
+{
+    color: #000; /*   color: #FFE385; --------Edited by Kowshal*/
+}
+
+div.small ul.stabs
+{
+    margin: 0;
+    padding: 0;
+    color: #000;
+    float: left;
+    list-style: none;
+    height: 27px;
+    width: 100%;
+}
+
+html div.small ul.stabs li.active
+{
+    background: url(Images/Gold-Arrow.png) no-repeat;
+    color: #000;
+}
+
+div.small ul.stabs li a
+{
+    text-decoration: none;
+    text-align: left;
+    color: #000;
+    display: block;
+    padding: 0 20px;
+    outline: none;
+}
+
+div.small ul.ltabs li a
+{
+    text-decoration: none;
+    text-align: left;
+    color: #000;
+    display: block;
+    padding: 0 20px;
+    outline: none;
+    cursor: pointer;
+}
+
+
+div.small ul.otabs li a
+{
+    text-decoration: none;
+    text-align: left;
+    color: #000;
+    display: block;
+    padding: 0 20px;
+    outline: none;
+}
+
+
+div.small ul.itabs li a
+{
+    text-decoration: none;
+    text-align: left;
+    color: #000;
+    display: block;
+    padding: 0 20px;
+    outline: none;
+}
+
+div.small ul.ftabs li a
+{
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+    display: block;
+    padding: 0 20px;
+    outline: none;
+}
+
+div.small ul.ftabs li a
+{
+    text-decoration: none;
+    text-align: left;
+    color: #000;
+    display: block;
+    padding: 0 20px;
+    outline: none;
+}
+.dash_HeaderName
+{
+    /*background-image: url(images/dashboard_empty.png);     margin-left: 510px;*/
+    width: 49%;
+    padding: 0px 10px 0px 0px;
+    float: right;
+    border: 3px solid #666;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    text-align: right;
+    font-size: 16px;
+    margin: 0px;
+    line-height: 37px; /*vertical-align:middle;*/
+}
+
+
+
+.IMPfieldset
+{
+    border: 1px solid #fc0;
+    font-weight: lighter;
+}
+
+.VwIcon
+{
+    /* background-image: url(Images/delete-icon.png);*/
+    background-image: url(Images/View_icon.png);
+    background-repeat: no-repeat;
+    border-style: none;
+    background-color: Transparent;
+    cursor: pointer;
+    float: right; /*edited by kowshal*/
+    width: 21px;
+    height: 21px;
+    float: right !important;
+}
+.view_calendar
+{
+    color: #000;
+}
+.logo_login
+{
+    background-image: url(images/GTK_logo_whte.png);
+    background-repeat: none;
+    margin-left: 50px;
+    padding: 0px;
+    z-index: 999;
+    border: 0px solid red;
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.fotter
+{
+    height: 20px;
+    color: #000; /*background-image: url(images/fotter_img.gif);     background-repeat: repeat-x;*/
+    float: none;
+    position: relative;
+    top: 0;
+    bottom: 0;
+}
+
+.fotter > .label
+{
+    color: #000;
+}
+.label
+{
+    font-family: Verdana;
+    color: #000 !important;
+    vertical-align: middle;
+    font-size: 12px;
+    font-weight: normal;
+    white-space: normal;
+}
+.SECDASH_label
+{
+    font-family: Verdana;
+    color: #000;
+    vertical-align: middle;
+    font-size: 12px;
+    font-weight: normal;
+    white-space: normal;
+}
+
+     .gtkDshbrdBox{
+        width:150px;
+        height:80px;
+        text-align:center;
+        background-color:#fc0;
+        border-radius:5px;
+        color:#ffffff;
+        float: left;
+        margin-left: 5px;
+        margin-bottom: 5px;
+        padding-top:50px;
+        box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.05) inset, 0px 0px 8px rgba(219, 1, 1, 0.72);
+        } 
+
+ .gtkDshbrdBox:hover
+        {
+        color:#fff;
+        background-color:#c00;
+        border-radius:15px;
+        text-transform:uppercase;
+        border:0px solid black;
+        box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.05) inset, 0px 0px 12px rgba(219, 1, 1, 0.72);
+        }
+.dash_menu
+{
+    /*background-image: url(images/ds_bod_1.png);     width: 510px;*/
+    border-bottom: 3px solid #333;
+    width: 100%;
+    height: 37px;
+    float: left;
+    margin: 0px;
+    font-size: 16px;
+    padding: 0px;
+}
+
+/*Writtern by kowshal*/
+.dash_menu span
+{
+    margin: 0px;
+    height: 37px;
+    width: 50%;
+    line-height: 37px;
+    font-size: 16px;
+    padding: 0px;
+}
+
+#header
+{
+    height: 61px; /* Commented By Kowshal     background-image: url(images/header_bg_new1.png);     background-repeat: repeat-x; */
+    border-bottom-color: #999999;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Da_header
+{
+    background-image: url(Images/da_img4.png);
+    width: 707px;
+    height: 60px;
+    float: right;
+    width: 811px;
+}
+/* ADded by Kowshal*/
+.Da_header .label
+{
+    font-weight: bold;
+    color: #000;
+}
+
+
+.dash_menuGT
+{
+    /*background-image: url(images/gtk_dashboard.png);*/
+    line-height: 30px;
+    width: 49%;
+    float: right;
+    text-align: right;
+    margin-right: 11px; /*float: left;     margin-left: 510px;*/
+    border: 3px solid #333;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-top: 0px;
+}
+.dash_menuGT1
+{
+    /*background-image: url(images/gtk_dashboard.png);*/
+    line-height: 37px;
+    width: 48%;
+    padding: 0px 9px 0 0;
+    float: right;
+    text-align: right;
+    margin-right: 11px; /*float: left;     margin-left: 510px;*/
+    border: 3px solid #333;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-top: 0px;
+}
+.DashBoardLi
+{
+    padding-top: 0px;
+    color: #000;
+    width: 105px;
+    font-family: Verdana;
+    font-size: 11px;
+}
+/* written by kowshal*/
+.DashBoardLi_1
+{
+    padding-top: 0px;
+    border: 0px;
+    background-color: Transparent;
+    color: #000;
+    width: 100px;
+    display: block;
+    outline: none;
+    cursor: pointer;
+    font-family: Verdana;
+    font-size: 11px;
+}
+.DashBoardLiFteCode
+{
+    font-family: Monotype Corsiva;
+    font-size: 20px;
+    color: #000000;
+    width: 100px;
+    padding: 40px 5px 40px 0px;
+    margin: 0px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+/* written by kowshal*/
+
+.DashBoardLiFteCode_btn
+{
+    font-family: Monotype Corsiva;
+    font-size: 20px;
+    color: #000000;
+    width: 100px;
+    padding: 40px 5px 40px 0px;
+    margin: 0px;
+    display: block;
+    border: 0 none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+.Bindimage
+{
+    /*background: url('Images/empty_dashboard_bg.png');     height: 192px;*/
+    width: 112px;
+    margin-top: 30px;
+    text-align: center;
+    padding: 0px;
+}
+
+/* for divs in Classification Entry */
+.DvStyle
+{
+    float: left;
+    width: 240px;
+    font-family: Verdana;
+    color: #000; /* Modified from white to black by kowshal*/
+    vertical-align: middle;
+    font-size: 12px;
+    font-weight: normal;
+    white-space: normal;
+}
+
+.modulemidle
+{
+    background: url(images/img-over-middle.png) repeat-y scroll;
+    width: 138px;
+    height: 17px;
+    clear: left;
+    color: #fff; /* color: #ffe385; ----- commented and edited by kowshal*/
+    list-style: none outside none;
+    text-align: left;
+    padding-left: 14px;
+    padding-bottom: 5px;
+    z-index: 400px;
+}
+/* written by Kowshal-- starts here*/
+.MoreMenu
+{
+    position: relative;
+    left: 210px;
+    z-index: 999;
+    display: none; *top:8px!important;
+*left:-106px!important;
+clear:both;
+width:138px;
+list-style:none;
+}
+
+/* end*/
+
+.ulLang_a
+{
+    color: #000; /*   color: #FFE385; --------Edited by Kowshal*/
+}
+
+
+
+/* Kowshal Code Starts From Here */
+
+/*login page changes starts here*/
+.btn
+{
+    display: inline-block;
+    padding: 4px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+    margin-left: 20px;
+    width: 90px;
+    text-align: center;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #cc0000;
+    background-repeat: repeat-x;
+    -moz-border-radius: 4px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 1px solid #c00;
+    zoom: 1; /* -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);*/
+}
+
+
+.nav .dropdown-toggle:hover .caret, .nav .dropdown-toggle:focus .caret
+{
+    border-top-color: #ffcc00;
+    border-bottom-color: #ffcc00;
+}
+.top_bg
+{
+    border-bottom: 5px solid #cc0000;
+    height: 85px;
+}
+/*login page changes ends here*/
+
+
+/*Innerpage changes starts here*/
+/*
+td .menuItem a:hover
+{   
+    padding: 5px 10px 0px 10px;
+    color:#ffcc00;
+    background-color:#cc0000;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+*/
+.lnkMiddle
+{
+    text-align: left;
+    color: #000;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.lnkModuleTop
+{
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    min-width:50px;
+    width: auto;
+    padding:0px 5px;
+    vertical-align: middle;
+}
+
+.HeaderModule, .arrowdown
+{
+     width: auto !important;
+    min-width:50px;
+    height: 17px;
+    float: left;
+    color: #000;
+    list-style: none outside none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    vertical-align: middle;
+    background-color: #9A7821;
+    behavior: url(PIE.htc);
+}
+.HeaderModule, .arrowdown
+{
+    /* Safari 5.1, Chrome 10+ ,  Firefox 3.6+ ,  IE 10,  Opera 11.10+, IE 6-9 (bottom) */
+    border: 1px solid #C8B303;
+    background: linear-gradient(#C4B42E, #DFCB1E) repeat scroll 50% 0% transparent !important;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#C4B42E), to(#DFCB1E));
+    background: -webkit-linear-gradient(top, #C4B42E, #DFCB1E) !important;
+    background: -moz-linear-gradient(top, #C4B42E, #DFCB1E) !important;
+    background: -ms-linear-gradient(top, #C4B42E, #DFCB1E) !important;
+    background: -o-linear-gradient(top, #C4B42E, #DFCB1E) !important;
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#C4B42E, endColorstr=#DFCB1E)" !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#C4B42E', EndColorStr='#DFCB1E') !important;
+}
+.HeaderModule a
+{
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    margin-top: 0px;
+    float: left;
+    color: #000;
+}
+.HeaderModule a:hover
+{
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    margin-top: 0px;
+    float: left;
+    color: #000;
+}
+/*
+.gtk_logo
+{
+    width: 317px;
+    height: 80px;
+    background-image: url(images/logo.png);
+    background-repeat: no-repeat;
+
+}
+*/
+.gtk_logo
+{
+    width: 200px;
+    height: 60px;
+    background-image: url(images/LoginGTK_logo.png);
+    background-repeat: no-repeat;
+    float: left;
+    margin-top: -8px;
+}
+
+/*.menu
+{
+    background-color:#FFCC00;
+    height: 30px;
+    width: 1024px;
+    color:#000;
+}*/
+
+.menuItem
+{
+    padding: 5px 10px 0px 10px;
+    height: 32px;
+    width: 150%;
+    font-family: Verdana;
+    font-size: 13px;
+    vertical-align: super;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+}
+.MenuBG
+{
+    height: 22px;
+    color: #000;
+    margin-left: 5px;
+}
+
+/*
+a {
+  color: #fff;
+  text-decoration: none;
+  display:block;
+  }
+*/
+a:hover
+{
+    color: #000;
+    text-decoration: underline;
+}
+#cv a:hover
+{
+    color: #000;
+    text-decoration: underline;
+}
+/*.menuItem td a:hover{
+  text-decoration: none;
+}
+*/
+.adjustedZIndex
+{
+    margin-left: -10px;
+    z-index: 11 !important;
+    background: linear-gradient(to bottom, rgba(250, 250, 249, 1) 75%, rgba(234, 234, 232, 1) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+/* NAVIGATION */
+
+#cssmenu
+{
+    height: 30px;
+    color: #000;
+    border-bottom: 5px solid #cc0000;
+    display: table;
+    width: 100%;
+}
+#cssmenu ul, #cssmenu li, #cssmenu a
+{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+#cssmenu a
+{
+    color: #000;
+    font-weight: bold;
+    display: inline-block;
+    font-family: Helvetica, Arial, Verdana, sans-serif;
+    font-size: 12px;
+    line-height: 30px;
+    padding: 0 20px;
+    text-decoration: none;
+}
+#cssmenu ul
+{
+    list-style: none;
+    width: 100%;
+    display: table;
+}
+
+#cssmenu ul li
+{
+    display: table-cell-block;
+}
+#cssmenu > ul > li > a
+{
+    color: #ffffff;
+    font-size: 12px;
+}
+
+
+/* color red Code starts Here */
+#cssmenu > ul > li:hover > a
+{
+    color: #ffcc00;
+    border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    width: auto;
+    background-color: #c00;
+}
+/* color red Code ends Here */
+
+#cssmenu .has-sub
+{
+    z-index: 99;
+    color: #000;
+    min-width: 0%;
+    max-width: 25%;
+    display: table-cell;
+}
+#cssmenu .has-sub a
+{
+    color: #000;
+}
+#cssmenu .has-sub:hover > ul
+{
+    display: block;
+}
+#cssmenu .has-sub ul
+{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+}
+
+#cssmenu .has-sub ul li a
+{
+    filter: none;
+    font-size: 11px;
+    display: block;
+    line-height: 100%;
+    padding: 8px;
+    color: #000;
+}
+#cssmenu .has-sub ul li:hover a
+{
+    text-decoration: underline;
+}
+#cssmenu .has-sub .has-sub:hover > ul
+{
+    display: block;
+}
+#cssmenu .has-sub .has-sub ul
+{
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
+#cssmenu .has-sub li a
+{
+    background: #fafaf9;
+    width: 200px;
+}
+/*Innerpage changes ends here*/
+
+
+.LnkStyle-1
+{
+    background-color: #fff;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+.LnkStyle-1 table td
+{
+    clear: both;
+    background-color: #fff;
+}
+.MasterNodes_span
+{
+    clear: both;
+    color: #ff6000;
+}
+.footer_login
+{
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 0px;
+    font-weight: bold;
+}
+
+/* Kowshal Code ends Here */
+
+/* background-color yellow Code starts Here */
+.fotter, .top_bg, #cssmenu, #cssmenu a, .footer_login, #header
+{
+    background-color: #fc0;
+}
+
+.DashBoardLiFteCode, .DashBoardLiFteCode_btn
+{
+    background: linear-gradient(to bottom, #fc0 75%, #d0aa12 100%);
+    color: #000000;
+    font-family: Monotype Corsiva;
+    font-size: 20px;
+    width: 100px;
+    padding: 40px 5px 40px 0px;
+    margin: 0px;
+    cursor: pointer;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    background-color: #fc0;
+    border-color: #000;
+    behavior: url(PIE.htc);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fc0), to(#d0aa12)); /* Safari 5.1, Chrome 10+ */
+    background: -webkit-linear-gradient(top, #d0aa12, #fc0); /* Firefox 3.6+ */
+    background: -moz-linear-gradient(top, #d0aa12, #fc0); /* IE 10 */
+    background: -ms-linear-gradient(top, #d0aa12, #fc0); /* Opera 11.10+ */
+    background: -o-linear-gradient(top, #d0aa12, #fc0);
+}
+/* written by kowshal*/
+
+.DashBoardLiFteCode_btn
+{
+    display: block;
+    border: 0 none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+/* background-color yellow Code ends Here */
+
+
+/* bottom  right and left arrows code*/
+/* added by Kowshal*/n #horizontal_carousel .next_button_1
+{
+    float: left;
+    width: 32px;
+    height: 175px;
+    background: url(Images/right.png);
+    background-repeat: no-repeat;
+    z-index: 100;
+    cursor: pointer;
+}
+#horizontal_carousel .previous_button_1
+{
+    float: left;
+    width: 32px;
+    height: 175px;
+    background: url(Images/left.png);
+    background-repeat: no-repeat;
+    z-index: 100;
+    cursor: pointer;
+}
+
+#horizontal_carousel .next_button
+{
+    float: left;
+    width: 32px;
+    height: 175px;
+    background: url(Images/right.png);
+    background-repeat: no-repeat;
+    z-index: 100;
+    cursor: pointer;
+    margin-top: 35px; /* added by Kowshal*/
+}
+
+#horizontal_carousel .previous_button_over
+{
+    background: url(Images/left_over1.png);
+}
+
+#horizontal_carousel .previous_button_disabled
+{
+    background: url(Images/left_disabled.png);
+    cursor: default;
+}
+
+
+#horizontal_carousel .previous_button
+{
+    float: left;
+    width: 32px;
+    height: 175px;
+    background: url(Images/left.png);
+    background-repeat: no-repeat;
+    z-index: 100;
+    cursor: pointer;
+    margin-top: 35px; /* added by Kowshal*/
+}
+
+
+
+#horizontal_carousel .next_button_over
+{
+    background: url(Images/right_over.png);
+}
+
+#horizontal_carousel .next_button_disabled
+{
+    background: url(Images/right_disabled.png);
+    cursor: default;
+}
+
+
+.btn_red
+{
+    display: inline-block;
+    padding: 5px;
+    font-size: 12px;
+    color: #ffffff;
+    margin-left: 20px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #cc0000;
+    cursor: pointer;
+}
+/*ACEEntrySummary.aspx, ACEEntrySummary.aspx, */
+.ACW_container
+{
+    width: 1000px;
+    margin-left: 12px;
+    height: 400px;
+    text-align: center;
+    border: 1px solid #fc0;
+}
+.ACW_container1
+{
+    height: 250px;
+    width: 990px;
+    overflow: auto;
+}
+.ACW_IMG
+{
+    margin-top: 300px;
+    margin-left: 2px;
+}
+
+#wrap, #header, #main, .fotter, .GT_SEC_BCKCOLOR, #GT_SEC_BCKCOLOR, #cssmenu, .content, .menu_srip_header, .dash_menu, #divTasks
+{
+    width: 1025px;
+}
+
+/*legend
+{
+    padding:8px;
+    background:#fc0;
+}*/
+.btnActivate, .btnApprove, .btnAdd, .btnAddNewCountry, .btnAssociation, .chargesbutton, .btnClear, .btnClearGp, .containerbtn, .btnCreateTemplate, .btnGetDocCodes, .btnGetSelectTrade, .btnExpTOPDF, .btnFinish, .btnGenRep, .btnGnTrans, .btnImport, .btnInherit, .btnMax, .btnMaxLarge, .btnMerge, .btnNext1, .btnUpload, .btnSplCriteria, .btnUploadFiles, .btnAddNew, .btnCancel, .btnClose, btngenerate_dis, .btnGenerate, .rowAddingClass, .btnEmpty, .btnEmptySamll, .btnEmptyLarge, .btnEmptyLarge1, .btncancelstyle, .btnCancel, .btnCopyRole, .btnDeny, .btnEmptyMax, .btnEmptyMax1, .btnGenerate, .btnGTransmit, .btnGo, .btnHistory, .Notes, .btnPrint, .btnRenew, .btnRequest, .btnsavestyle, .btnSave, .btnSaveAndCont, .btnSubmit, .btnUpdate
+{
+    display: inline-block;
+    padding: 5px;
+    font-size: 12px;
+    color: #ffffff !important;
+    background-color: #cc0000 !important;
+    margin-left: 5px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    width: auto !important;
+    cursor: pointer;
+    border: 0px; /* Safari 5.1, Chrome 10+ ,  Firefox 3.6+ ,  IE 10,  Opera 11.10+, IE 6-9 (bottom) */ /*   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ccc), to(#000));          background: -webkit-linear-gradient(top, #ccc, #000) !important;           background: -moz-linear-gradient(top, #ccc, #000) !important;           background: -ms-linear-gradient(top, #ccc, #000) !important;           background: -o-linear-gradient(top, #ccc, #000) !important;          -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#cccccc, endColorstr=#000000)" !important;               filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#cccccc', EndColorStr='#000000') !important;*/
+}
+.bck_color_head, .legendnoborder
+{
+    background-color: #c00;
+}
+.tab_container
+{
+    border-top: none;
+    clear: both;
+    float: left;
+    border: 1px solid #fc0;
+    -webkit-border-radius: 0px 0px 5px 5px;
+    -moz-border-radius: 0px 0px 5px 5px;
+    border-radius: 0px 0px 5px 5px;
+    border: 1px solid #fc0 !important;
+    width: 99.8% !important;
+}
+.tab_container, .ftab_container, .ltab_container, .itab_container, .oltab_container, .atab_container, .stab_container
+{
+    background-color: #fff !important;
+}
+
+.modalPopupAjax
+{
+    background-color: #fff;
+}
+
+
+
+.Notes
+{
+    width: 40px !important;
+    cursor: pointer;
+    background-color: #c00;
+}
+
+.trackblacklabel1, .Trckblacklabel1, .labelTrckBlckbld1, .Trckblacklabel1
+{
+    font-size: 10px;
+    font-weight: normal;
+    padding-left: 2px;
+}
+
+.trborder
+{
+    border-right: solid 1px gold;
+    background-color: #cc0000;
+}
+
+#ulmain ul li ul
+{
+    display: none;
+}
+
+.textbox, .normaltextbox, .textboxNoCaseselect, .textboxNoCase, .txt-width, input
+{
+    border: 1px solid #999;
+    border-radius: 0;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    text-transform: uppercase !important;
+}
+input[type="file"]
+{
+    border: 1px solid #999 !important;
+    margin: 0 !important;
+    border-radius: 0 !important;
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+}
+select
+{
+    border: 1px solid #999;
+    margin: 0;
+    border-radius: 0;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    text-transform: uppercase !important;
+}
+textarea
+{
+    border: 1px solid #999;
+    margin: 0;
+    border-radius: 0;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    text-transform: uppercase !important;
+}
+#form1
+{
+    margin: 0 !important;
+    width: auto !important;
+    z-index: 0 !important;
+    height: inherit !important;
+}
+
+#divProgress span
+{
+    position: absolute !important;
+    float: right !important;
+    top: 16px !important;
+    right: -20px !important;
+    z-index: 99999 !important;
+    background-color: #CF4342;
+    width: 100px;
+}
+.active a
+{
+    color: #fff !important;
+}
+/* .tab_container:first-child { border:0px solid #fc0; } */
+
+
+/* Help page style start here */
+.helppagebg
+{
+    background-color: #1b1c1e;
+}
+.helpbg
+{
+    background-color: #fff;
+    color: #000 !important;
+}
+.helpcontentbg
+{
+    background-color: #313339;
+}
+.helpfont
+{
+    color: #000 !important;
+}
+.helpfont2
+{
+    color: #c00;
+}
+/* Help page style end here */
+
+.gt
+{
+    font-family: Verdana;
+    font-size: 12px;
+    color: #fc0;
+    font-weight: normal;
+}
+.fc
+{
+    color: #000 !important;
+}
+.gvSREHdr
+{
+    border: 1px solid #fff !important;
+}
+.RObackBorderColors, .SREbackBorderColors, .gvROHdr, .backBorderColors, .gvROSFHdr, .ROSFbackBorderColors
+{
+    background-color: #cc0000 !important;
+    color: #fff !important;
+    vertical-align: bottom !important;
+}
+.backBorderColors
+{
+    border: 1px solid #c00 !important;
+}
+.gvROHdr
+{
+    border: 1px solid #c00 !important;
+}
+.SREbackBorderColors
+{
+    border: 1px solid #c00 !important;
+}
+.RObackBorderColors
+{
+    border: 1px solid #c00 !important;
+}
+.gvRORowStyle
+{
+    border: 1px solid #c00 !important;
+}
+
+.RObackBorderColors .linklabel, .SREbackBorderColors .linklabel, .gvROHdr .linklabel, .backBorderColors .linklabel, .gvROHdr .label, .RObackBorderColors .label, .SREbackBorderColors .label, .backBorderColors .label
+{
+    color: #fff !important;
+}
+
+
+.water
+{
+    font-family: Tahoma, Arial, sans-serif;
+    color: #fff;
+    background-color: #c00;
+}
+.blacklabelbold
+{
+    color: #fff;
+}
+.gvAltItemStyle, .gvItemStyle
+{
+    color: #000;
+    background:#fff;
+}
+ul#tabs li
+{
+    background-color: #c00;
+}
+.theme_bg
+{
+    background-color: #c00 !important;
+}
+input[type="radio"]
+{
+    border: 0 solid #fff;
+}
+input[type="checkbox"]
+{
+    border: 0 solid #fff;
+}
+
+.GT_SEC_BCKCOLOR .fotter
+{
+    clear: both;
+    margin: 0 auto !important;
+}
+.spanTxtWidth
+{
+    background-color: #c00;
+    color: #fff !important;
+    padding: 2px 0 0 2px;
+}
+
+.step-bx2, .step-bx1
+{
+    background-color: #fff;
+}
+.divCHKHeading
+{
+    background-color: #c00;
+    padding: 2px;
+}
+.dataTables_wrapper
+{
+    color: #000 !important;
+}
+
+.dataTables_wrapper input[type="button"]
+{
+    color: #ffffff !important;
+    background-color: #cc0000 !important;
+    text-align: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    width: auto;
+    cursor: pointer;
+    border: 0px;
+}
+.ctl00_ContentPlaceHolder1_FlexControl1_Menu1_6, .ctl00_ContentPlaceHolder1_FlexControl1_Menu1_4
+{
+    background-color: #c00 !important;
+}
+.divInnerCls
+{
+    background-color: #c00 !important;
+}
+.divTabASO, .divTabComfl, .upload-file
+{
+    border: 1px solid #fc0 !important;
+}
+#rblOptions
+{
+    color: #000 !important;
+}
+.redstar
+{
+    color: #ff0000;
+    font-size: medium;
+    font-family: Verdana;
+}
+.dataTables_wrapper
+{
+    height: auto !important;
+}
+
+#divFiltersDisplay span, .entity-fill-head, .igg_PageCurrent
+{
+    color: #000 !important;
+}
+.error_label
+{
+    color: #fff !important;
+}
+
+#gview_jQGridCont th, #gview_jQGridParts th
+{
+    background:#C00 !important; 
+}
+/*model popup css starts here*/
+  .modalBackground
+    {
+        background-color: Black;
+        filter: alpha(opacity=60);
+        opacity: 0.6;
+    }
+    .modalPopup
+    {
+        background-color: #FFFFFF;
+        width: 800px;
+        border: 3px solid #cc0000;
+        border-radius: 5px;
+        padding:0;
+        z-index:100001;
+        position:fixed;
+      
+    }
+    .modalPopup .header
+    {
+        background-color: #cc0000;
+        height: 30px;
+        color: White;
+        line-height: 30px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .modalPopup .label 
+    {
+        color:#333 !important;}
+        
+    .modalPopup .body
+    {
+        min-height: 50px;
+        line-height: 30px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .modalPopup .footer
+    {
+        padding: 6px;
+    }
+    .modalPopup .yes, .modalPopup .no
+    {
+        height: 23px;
+        color: White;
+        line-height: 23px;
+        text-align: center;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+    .modalPopup .yes
+    {
+        background-color: #2FBDF1;
+        border: 1px solid #0DA9D0;
+    }
+    .modalPopup .no
+    {
+        background-color: #9F9F9F;
+        border: 1px solid #5C5C5C;
+    }
+    /*model popup css ends here*/
