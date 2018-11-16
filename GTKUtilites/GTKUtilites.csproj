@@ -65,6 +65,14 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>F:\Workspace\Refere\Refere\EPPlus.dll</HintPath>
     </Reference>
+    <Reference Include="Excel, Version=2.1.0.0, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>F:\Workspace\Refere\Refere\Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelPackage, Version=1.0.0.1, Culture=neutral, PublicKeyToken=f8bb63aa9d6969e8, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>F:\Workspace\Refere\Refere\ExcelPackage.dll</HintPath>
+    </Reference>
     <Reference Include="Office, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>\\172.16.6.222\gtkonnect_new_dev_reference_dlls\Office.dll</HintPath>
