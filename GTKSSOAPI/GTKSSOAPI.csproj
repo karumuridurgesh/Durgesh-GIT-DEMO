@@ -69,12 +69,12 @@
     <Reference Include="RC4Library">
       <HintPath>F:\Workspace\Refere\Refere\RC4Library.dll</HintPath>
     </Reference>
-	<Reference Include="GTKonnect.CommonUtilites">
+<!-- 	<Reference Include="GTKonnect.CommonUtilites">
       <HintPath>G:\Durgesh GIT\packages\GTKonnect.CommonUtilites.dll</HintPath>
     </Reference>
 	<Reference Include="GTKonnect.DBHelper">
       <HintPath>G:\Durgesh GIT\packages\GTKonnect.DBHelper.dll</HintPath>
-    </Reference>
+    </Reference> -->
     <Reference Include="System" />
     <Reference Include="System.IdentityModel" />
     <Reference Include="System.IdentityModel.Services" />
