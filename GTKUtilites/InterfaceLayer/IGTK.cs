@@ -3,6 +3,8 @@ using System.Data;
 
 namespace GTKUtilites.InterfaceLayer
 {
+
+
     public interface IGTK<T>
     {
         string ParentNode { get; }
