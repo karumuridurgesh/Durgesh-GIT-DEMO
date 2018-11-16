@@ -7,7 +7,7 @@ using OfficeOpenXml;
 using OfficeOpenXml.Style;
 using System.Drawing;
 using System.IO;
-
+ 
 namespace GTKUtilites.HelpMethods
 {
     public class GTKExcelDownLoad
