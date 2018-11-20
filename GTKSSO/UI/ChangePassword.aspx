@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <script src="../ClientScrips/jquery-1.6.3.min.js"></script>
     <link href="../css/toastr.css" rel="stylesheet" />
- <%--   <script src="../ClientScrips/toastr.js"></script>
+ <%--   <script src="../ClientScrips/toastr.js"></script>-- by durgesh
  --%>
 
 
