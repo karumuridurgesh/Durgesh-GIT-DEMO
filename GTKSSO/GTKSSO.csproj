@@ -115,10 +115,8 @@
     <Content Include="app\bower_components\bootstrap-switch\index.html" />
     <Content Include="app\bower_components\bootstrap-switch\main.html" />
     <Content Include="app\bower_components\bootstrap-switch\methods.html" />
-    <Content Include="app\bower_components\bootstrap-switch\node_modules\jquery\AUTHORS.txt" />
     <Content Include="app\bower_components\bootstrap-switch\node_modules\jquery\dist\jquery.js" />
     <Content Include="app\bower_components\bootstrap-switch\node_modules\jquery\dist\jquery.min.js" />
-    <Content Include="app\bower_components\bootstrap-switch\node_modules\jquery\MIT-LICENSE.txt" />
     <Content Include="app\bower_components\bootstrap-switch\node_modules\jquery\src\ajax.js" />
     <Content Include="app\bower_components\bootstrap-switch\node_modules\jquery\src\ajax\jsonp.js" />
     <Content Include="app\bower_components\bootstrap-switch\node_modules\jquery\src\ajax\load.js" />
