@@ -49,11 +49,11 @@
   <ItemGroup>
     <Reference Include="GTKonnect.CommonUtilites, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>F:\Workspace\Refere\Refere\GTKonnect.CommonUtilites.dll</HintPath>
+      <HintPath>GTKOnnect Dll's\GTKonnect.CommonUtilites.dll</HintPath>
     </Reference>
     <Reference Include="GTKonnect.DBHelper, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>F:\Workspace\Refere\Refere\GTKonnect.DBHelper.dll</HintPath>
+      <HintPath>GTKOnnect Dll's\GTKonnect.DBHelper.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
@@ -69,7 +69,7 @@
     <Reference Include="RC4Library">
       <HintPath>F:\Workspace\Refere\Refere\RC4Library.dll</HintPath>
     </Reference>
-<!-- 	<Reference Include="GTKonnect.CommonUtilites">
+    <!-- 	<Reference Include="GTKonnect.CommonUtilites">
       <HintPath>G:\Durgesh GIT\packages\GTKonnect.CommonUtilites.dll</HintPath>
     </Reference>
 	<Reference Include="GTKonnect.DBHelper">
@@ -171,6 +171,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="GTKOnnect Dll%27s\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\GTKSSOLibrary\GTKSSOLibrary.csproj">
