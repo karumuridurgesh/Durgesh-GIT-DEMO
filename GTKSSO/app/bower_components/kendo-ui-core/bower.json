@@ -24,11 +24,11 @@
   "homepage": "http://www.github.com/telerik/kendo-ui-core",
   "private": false,
   "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "app/components",
-    "test",
-    "tests"
+    //"**/.*",
+    //"node_modules",
+    //"bower_components",
+    //"app/components",
+    //"test",
+    //"tests"
   ]
 }
