@@ -52,15 +52,28 @@
   <ItemGroup>
     <Reference Include="AjaxControlToolkit, Version=3.0.30512.20315, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\GTKonnect_V1\DEV\GTKonnect\bin\AjaxControlToolkit.dll</HintPath>
+      <HintPath>F:\Workspace\Refere\Refere\AjaxControlToolkit.dll</HintPath>
     </Reference>
-    <Reference Include="AntiXSSLibrary, Version=4.0.0.0, Culture=neutral, PublicKeyToken=d127efab8a9c114f, processorArchitecture=MSIL">
+    <Reference Include="AntiXssLibrary, Version=4.3.0.0, Culture=neutral, PublicKeyToken=d127efab8a9c114f, processorArchitecture=MSIL">
+      <HintPath>..\packages\AntiXSS.4.3.0\lib\net40\AntiXssLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus">
+      <HintPath>F:\Workspace\Refere\Refere\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="Excel, Version=2.1.0.0, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>G:\dll\SSO\AntiXSSLibrary.dll</HintPath>
+      <HintPath>F:\Workspace\Refere\Refere\Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelPackage, Version=1.0.0.1, Culture=neutral, PublicKeyToken=f8bb63aa9d6969e8, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>F:\Workspace\Refere\Refere\ExcelPackage.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlSanitizationLibrary, Version=4.3.0.0, Culture=neutral, PublicKeyToken=d127efab8a9c114f, processorArchitecture=MSIL">
+      <HintPath>..\packages\AntiXSS.4.3.0\lib\net40\HtmlSanitizationLibrary.dll</HintPath>
     </Reference>
     <Reference Include="RC4Library, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\GTKonnect_V1\DEV\GTKonnect\bin\RC4Library.dll</HintPath>
+      <HintPath>F:\Workspace\Refere\Refere\RC4Library.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -102,7 +115,9 @@
     <Content Include="app\bower_components\bootstrap-switch\index.html" />
     <Content Include="app\bower_components\bootstrap-switch\main.html" />
     <Content Include="app\bower_components\bootstrap-switch\methods.html" />
-    <Content Include="app\bower_components\bootstrap-switch\node_modules\jquery\AUTHORS.txt" />
+    <None Include="app\bower_components\bootstrap-switch\node_modules\jquery\AUTHORS.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <Content Include="app\bower_components\bootstrap-switch\node_modules\jquery\dist\jquery.js" />
     <Content Include="app\bower_components\bootstrap-switch\node_modules\jquery\dist\jquery.min.js" />
     <Content Include="app\bower_components\bootstrap-switch\node_modules\jquery\MIT-LICENSE.txt" />
@@ -3179,15 +3194,6 @@
     <Content Include="app\bower_components\bootstrap-switch\gulpfile.coffee" />
     <Content Include="app\bower_components\bootstrap-switch\karma.json" />
     <Content Include="app\bower_components\bootstrap-switch\LICENSE" />
-    <Content Include="app\bower_components\bootstrap-switch\node_modules\jquery\.bowerrc" />
-    <Content Include="app\bower_components\bootstrap-switch\node_modules\jquery\.jscsrc" />
-    <Content Include="app\bower_components\bootstrap-switch\node_modules\jquery\.npmignore" />
-    <Content Include="app\bower_components\bootstrap-switch\node_modules\jquery\bower.json" />
-    <Content Include="app\bower_components\bootstrap-switch\node_modules\jquery\CONTRIBUTING.md" />
-    <Content Include="app\bower_components\bootstrap-switch\node_modules\jquery\dist\jquery.min.map" />
-    <Content Include="app\bower_components\bootstrap-switch\node_modules\jquery\package.json" />
-    <Content Include="app\bower_components\bootstrap-switch\node_modules\jquery\README.md" />
-    <Content Include="app\bower_components\bootstrap-switch\node_modules\jquery\src\sizzle\dist\sizzle.min.map" />
     <Content Include="app\bower_components\bootstrap-switch\package.json" />
     <Content Include="app\bower_components\bootstrap-switch\README.md" />
     <Content Include="app\bower_components\bootstrap-switch\src\coffee\bootstrap-switch.coffee" />
@@ -4138,6 +4144,16 @@
     <Content Include="css\fonts\Roboto\Roboto-Regular.ttf" />
     <Content Include="css\fonts\Roboto\Roboto-Thin.ttf" />
     <Content Include="css\fonts\Roboto\Roboto-ThinItalic.ttf" />
+    <Content Include="app\bower_components\bootstrap-switch\node_modules\jquery\.bowerrc" />
+    <Content Include="app\bower_components\bootstrap-switch\node_modules\jquery\.jscsrc" />
+    <Content Include="app\bower_components\bootstrap-switch\node_modules\jquery\.npmignore" />
+    <Content Include="app\bower_components\bootstrap-switch\node_modules\jquery\bower.json" />
+    <Content Include="app\bower_components\bootstrap-switch\node_modules\jquery\CONTRIBUTING.md" />
+    <Content Include="app\bower_components\bootstrap-switch\node_modules\jquery\dist\jquery.min.map" />
+    <Content Include="app\bower_components\bootstrap-switch\node_modules\jquery\package.json" />
+    <Content Include="app\bower_components\bootstrap-switch\node_modules\jquery\README.md" />
+    <Content Include="app\bower_components\bootstrap-switch\node_modules\jquery\src\sizzle\dist\sizzle.min.map" />
+    <None Include="packages.config" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
   </ItemGroup>
   <PropertyGroup>

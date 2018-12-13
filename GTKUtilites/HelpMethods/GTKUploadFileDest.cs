@@ -13,7 +13,8 @@ namespace GTKUtilites.HelpMethods
 {
     public class GTKUploadFileDest
     {
-        //DocImgUploadProp clsDocImgUploadProp = new DocImgUploadProp();
+        //DocImgUploadProp clsDocImgUploadProp = 
+        //new DocImgUploadProp();
         DocImgUploadBLL clsDocImgUploadBLL = new DocImgUploadBLL();
         private static GTKUploadFileDest _Ins = new GTKUploadFileDest();
 
