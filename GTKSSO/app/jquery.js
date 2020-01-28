@@ -14,6 +14,8 @@
 (function (window, undefined) {
     "use strict";
     var 
+
+//comment added by durgeshk
     // A central reference to the root jQuery(document)
 	rootjQuery,
 

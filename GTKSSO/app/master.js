@@ -23,6 +23,7 @@ require([
             UserValidation.push(UserCode);
             $.ajax({
                 type: "POST",
+//comment added by durgeshk
                 url: "../GTKSSOApi/api/Home/getMenuDetails",
                 contentType: "application/json",
                 data: JSON.stringify(UserValidation),
